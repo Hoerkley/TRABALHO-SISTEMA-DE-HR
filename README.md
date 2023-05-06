@@ -89,3 +89,9 @@ escolher qual programa quer rodar
 # FUNÇÃO  VOLTAR_AO_MENU: 
 voltar ao inicio
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+# LINKS UTILIZADOS
+https://www.calcule.net/
+https://www.gov.br/pt-br
