@@ -131,7 +131,14 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Simuladores\frmBeneficioValeTransporte.resx">
+      <DependentUpon>frmBeneficioValeTransporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\frmDescontoInss.resx">
+      <DependentUpon>frmDescontoInss.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -145,6 +152,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\icons8-parte-traseira-de-cartão-de-banco-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4124848-affiliate-marketing-aim-audience-targeting-focus-human-resources_114107.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
