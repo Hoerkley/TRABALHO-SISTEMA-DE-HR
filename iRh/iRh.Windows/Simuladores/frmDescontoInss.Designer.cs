@@ -41,7 +41,7 @@
             // 
             this.lblSalario.AutoSize = true;
             this.lblSalario.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSalario.Location = new System.Drawing.Point(12, 53);
+            this.lblSalario.Location = new System.Drawing.Point(7, 9);
             this.lblSalario.Name = "lblSalario";
             this.lblSalario.Size = new System.Drawing.Size(124, 30);
             this.lblSalario.TabIndex = 0;
@@ -50,7 +50,7 @@
             // txtSalario
             // 
             this.txtSalario.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSalario.Location = new System.Drawing.Point(12, 86);
+            this.txtSalario.Location = new System.Drawing.Point(12, 42);
             this.txtSalario.Name = "txtSalario";
             this.txtSalario.Size = new System.Drawing.Size(266, 35);
             this.txtSalario.TabIndex = 1;
@@ -58,9 +58,9 @@
             // btnCalcular
             // 
             this.btnCalcular.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcular.Location = new System.Drawing.Point(12, 158);
+            this.btnCalcular.Location = new System.Drawing.Point(12, 123);
             this.btnCalcular.Name = "btnCalcular";
-            this.btnCalcular.Size = new System.Drawing.Size(140, 39);
+            this.btnCalcular.Size = new System.Drawing.Size(243, 99);
             this.btnCalcular.TabIndex = 2;
             this.btnCalcular.Text = "Calcular INSS";
             this.btnCalcular.UseVisualStyleBackColor = true;
@@ -68,36 +68,41 @@
             // 
             // panelResultado
             // 
-            this.panelResultado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.panelResultado.Controls.Add(this.lblResultado);
-            this.panelResultado.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.panelResultado.Location = new System.Drawing.Point(0, 274);
+            this.panelResultado.Location = new System.Drawing.Point(12, 265);
             this.panelResultado.Name = "panelResultado";
-            this.panelResultado.Size = new System.Drawing.Size(799, 164);
+            this.panelResultado.Size = new System.Drawing.Size(309, 100);
             this.panelResultado.TabIndex = 3;
             this.panelResultado.Visible = false;
             // 
             // lblResultado
             // 
             this.lblResultado.AutoSize = true;
-            this.lblResultado.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.Location = new System.Drawing.Point(331, 58);
+            this.lblResultado.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.Location = new System.Drawing.Point(14, 21);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(142, 40);
+            this.lblResultado.Size = new System.Drawing.Size(124, 30);
             this.lblResultado.TabIndex = 4;
-            this.lblResultado.Text = "Resultado";
+            this.lblResultado.Text = "Salário base";
             // 
             // frmDescontoInss
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.RoyalBlue;
+            this.BackgroundImage = global::iRh.Windows.Properties.Resources.INSS1;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panelResultado);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.txtSalario);
             this.Controls.Add(this.lblSalario);
+            this.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "frmDescontoInss";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Desconto INSS";
             this.panelResultado.ResumeLayout(false);
             this.panelResultado.PerformLayout();

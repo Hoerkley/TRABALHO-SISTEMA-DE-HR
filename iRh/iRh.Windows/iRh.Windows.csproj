@@ -52,6 +52,7 @@
     <Compile Include="Cadastros\frmFuncionarios.Designer.cs">
       <DependentUpon>frmFuncionarios.cs</DependentUpon>
     </Compile>
+    <Compile Include="Core\Inss.cs" />
     <Compile Include="PrincipalMdi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -157,6 +158,39 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\4124848-affiliate-marketing-aim-audience-targeting-focus-human-resources_114107.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\businessman_team_recruitment_employee_resources_human_resource_icon_210723 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\businessman_team_recruitment_employee_resources_human_resource_icon_210723.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\find_team_job_employee_hiring_recruitment_icon_210727.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping_commerce_money_balance_deposit_pay_cash_payment_wallet_icon_210820.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\find_team_job_employee_hiring_recruitment_icon_2107271.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\officialpersonavatar_man_funcionario_person_2832.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\INSS.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\analytics_report_chart_management_employee_skill_ability_icon_210502.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RecursosHumanos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money_contribution_charity_grant_donation_icon_252467.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\INSS.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
