@@ -83,6 +83,26 @@ namespace iRh.Windows.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BotaoCalcular {
+            get {
+                object obj = ResourceManager.GetObject("BotaoCalcular", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bus_icon_icons_com_76529 {
+            get {
+                object obj = ResourceManager.GetObject("bus_icon-icons.com_76529", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap businessman_team_recruitment_employee_resources_human_resource_icon_210723 {
             get {
                 object obj = ResourceManager.GetObject("businessman_team_recruitment_employee_resources_human_resource_icon_210723", resourceCulture);
@@ -103,6 +123,16 @@ namespace iRh.Windows.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FGTS {
+            get {
+                object obj = ResourceManager.GetObject("FGTS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap find_team_job_employee_hiring_recruitment_icon_210727 {
             get {
                 object obj = ResourceManager.GetObject("find_team_job_employee_hiring_recruitment_icon_210727", resourceCulture);
@@ -116,6 +146,16 @@ namespace iRh.Windows.Properties {
         internal static System.Drawing.Bitmap find_team_job_employee_hiring_recruitment_icon_2107271 {
             get {
                 object obj = ResourceManager.GetObject("find_team_job_employee_hiring_recruitment_icon_2107271", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap human_resources_search_employees_icon_187488 {
+            get {
+                object obj = ResourceManager.GetObject("human_resources_search_employees_icon_187488", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,9 +223,59 @@ namespace iRh.Windows.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap RH_03 {
+            get {
+                object obj = ResourceManager.GetObject("RH-03", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RH_04 {
+            get {
+                object obj = ResourceManager.GetObject("RH-04", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RH_teste2_03 {
+            get {
+                object obj = ResourceManager.GetObject("RH_teste2-03", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap shopping_commerce_money_balance_deposit_pay_cash_payment_wallet_icon_210820 {
             get {
                 object obj = ResourceManager.GetObject("shopping_commerce_money_balance_deposit_pay_cash_payment_wallet_icon_210820", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Tendencias_em_recursos_humanos_transformacoes_no_RH_brasileiro {
+            get {
+                object obj = ResourceManager.GetObject("Tendencias-em-recursos-humanos-transformacoes-no-RH-brasileiro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Vale_01 {
+            get {
+                object obj = ResourceManager.GetObject("Vale.01", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -22,42 +22,57 @@
             else if(salario <= FaixaSalarial2)
             {
 
-                var descontoFaixa1 = CalculaFaixa1(salario);
-                valorInss = (salario - FaixaSalarial1) + descontoFaixa1;
+                var desconto = CalculaFaixa(salario);
+                var desconto2 = CalculaFaixa2(salario) + desconto;
+                valorInss = desconto2;             
             }
             else if(salario <= FaixaSalarial3)
             {
-                var descontoFaixa1 = CalculaFaixa1(salario);
-                var descontoFaixa2 = 0.09 * (FaixaSalarial2 - FaixaSalarial1);
-                valorInss = 12 / 100 * (salario - FaixaSalarial2) + descontoFaixa1 + descontoFaixa2;
+                var desconto = CalculaFaixa(salario);
+                var desconto2 = CalculaFaixa1(salario);
+                var descoto3 = CalculaFaixa2(salario);
+                var desconto4= CalculoFaixa3(salario) + desconto;
+                valorInss = desconto4;
             }
             else if(salario <= FaixaSalarial4)
             {
-                var descontoFaixa1 = CalculaFaixa1(salario);
-                var descontoFaixa2 = CalculoFaixa2(salario);
-                var descontoFaixa3 = CalculoFaixa3(salario);
-                valorInss = 0.14 * (salario - FaixaSalarial3) + descontoFaixa1 + descontoFaixa2 + descontoFaixa3;  
+                var desconto = CalculaFaixa(salario);
+                var desconto2 = CalculaFaixa1(salario);
+                var descoto3 = CalculaFaixa2(salario);
+                var desconto4 = CalculoFaixa3(salario);
+                var desconto5 = CalculaFaixa4(salario) + desconto;
+                valorInss = desconto5;
             }
             else
             {
-                var descontoFaixa1 = CalculaFaixa1(salario);
-                var descontoFaixa2 = CalculoFaixa2(salario);
-                var descontoFaixa3 = CalculoFaixa3(salario);
-                valorInss = 0.14 * (FaixaSalarial4 - FaixaSalarial3) + descontoFaixa1 + descontoFaixa2 + descontoFaixa3;
+                var desconto = CalculaFaixa(salario);
+                var desconto2 = CalculaFaixa1(salario);
+                var descoto3 = CalculaFaixa2(salario);
+                var desconto4 = CalculoFaixa3(salario);
+                var desconto5 = CalculaFaixa4(salario) + desconto + desconto2 + descoto3 + desconto4;
+                valorInss = desconto5;
             }
             return valorInss;
         }
-        private static double CalculaFaixa1(double salario)
+        private static double CalculaFaixa(double salario)
         {
             return (0.075 * FaixaSalarial1);
         }
-        private static double CalculoFaixa2(double salario)
+        private static double CalculaFaixa1(double salario)
+        {
+            return (0.075 * salario);
+        }
+        private static double CalculaFaixa2(double salario)
         {
             return 0.09 * (FaixaSalarial2 - FaixaSalarial1);
         }
         private static double CalculoFaixa3(double salario)
         {
             return 0.12 * (FaixaSalarial3 - FaixaSalarial2);
+        }
+        private static double CalculaFaixa4(double salario)
+        {
+            return 0.14 * (FaixaSalarial4 - FaixaSalarial3);
         }
     }
 }

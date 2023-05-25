@@ -52,7 +52,9 @@
     <Compile Include="Cadastros\frmFuncionarios.Designer.cs">
       <DependentUpon>frmFuncionarios.cs</DependentUpon>
     </Compile>
+    <Compile Include="Core\CalculaFgts.cs" />
     <Compile Include="Core\Inss.cs" />
+    <Compile Include="Core\ValeTransporte.cs" />
     <Compile Include="PrincipalMdi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -134,6 +136,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Simuladores\frmBeneficioFgts.resx">
+      <DependentUpon>frmBeneficioFgts.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Simuladores\frmBeneficioValeTransporte.resx">
       <DependentUpon>frmBeneficioValeTransporte.cs</DependentUpon>
     </EmbeddedResource>
@@ -191,6 +196,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\INSS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoCalcular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RH-04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RH_teste2-03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RH-03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\human_resources_search_employees_icon_187488.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tendencias-em-recursos-humanos-transformacoes-no-RH-brasileiro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FGTS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vale.01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bus_icon-icons.com_76529.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

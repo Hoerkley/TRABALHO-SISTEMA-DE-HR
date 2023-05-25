@@ -34,6 +34,8 @@
             this.txtSalarioValeTRansporte = new System.Windows.Forms.TextBox();
             this.lblResultadoVAleTransporte = new System.Windows.Forms.Label();
             this.btnCalculo = new System.Windows.Forms.Button();
+            this.panelValeTransporte = new System.Windows.Forms.Panel();
+            this.panelValeTransporte.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -67,7 +69,7 @@
             // 
             this.lblResultadoVAleTransporte.AutoSize = true;
             this.lblResultadoVAleTransporte.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultadoVAleTransporte.Location = new System.Drawing.Point(25, 290);
+            this.lblResultadoVAleTransporte.Location = new System.Drawing.Point(31, 28);
             this.lblResultadoVAleTransporte.Name = "lblResultadoVAleTransporte";
             this.lblResultadoVAleTransporte.Size = new System.Drawing.Size(102, 20);
             this.lblResultadoVAleTransporte.TabIndex = 3;
@@ -86,25 +88,40 @@
             this.btnCalculo.Text = "Calculo";
             this.btnCalculo.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnCalculo.UseVisualStyleBackColor = true;
+            this.btnCalculo.Click += new System.EventHandler(this.btnCalculo_Click);
+            // 
+            // panelValeTransporte
+            // 
+            this.panelValeTransporte.Controls.Add(this.lblResultadoVAleTransporte);
+            this.panelValeTransporte.Location = new System.Drawing.Point(6, 338);
+            this.panelValeTransporte.Name = "panelValeTransporte";
+            this.panelValeTransporte.Size = new System.Drawing.Size(227, 100);
+            this.panelValeTransporte.TabIndex = 5;
+            this.panelValeTransporte.Visible = false;
             // 
             // frmBeneficioValeTransporte
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.CadetBlue;
+            this.BackgroundImage = global::iRh.Windows.Properties.Resources.bus_icon_icons_com_76529;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.panelValeTransporte);
             this.Controls.Add(this.btnCalculo);
-            this.Controls.Add(this.lblResultadoVAleTransporte);
             this.Controls.Add(this.txtSalarioValeTRansporte);
             this.Controls.Add(this.lblSalarioValeTransporte);
             this.Controls.Add(this.label1);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.HelpButton = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "frmBeneficioValeTransporte";
-            this.ShowInTaskbar = false;
-            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmBeneficioValeTransporte";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.panelValeTransporte.ResumeLayout(false);
+            this.panelValeTransporte.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -117,5 +134,6 @@
         private System.Windows.Forms.TextBox txtSalarioValeTRansporte;
         private System.Windows.Forms.Label lblResultadoVAleTransporte;
         private System.Windows.Forms.Button btnCalculo;
+        private System.Windows.Forms.Panel panelValeTransporte;
     }
 }

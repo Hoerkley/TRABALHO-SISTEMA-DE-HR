@@ -28,12 +28,104 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBeneficioFgts));
+            this.txtSalarioFgts = new System.Windows.Forms.TextBox();
+            this.btnCalcularFgts = new System.Windows.Forms.Button();
+            this.panelResultadoFgts = new System.Windows.Forms.Panel();
+            this.lblResultadoFgts = new System.Windows.Forms.Label();
+            this.lblSalarioFsgts = new System.Windows.Forms.Label();
+            this.lblOValorDoSeuFgts = new System.Windows.Forms.Label();
+            this.panelResultadoFgts.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // txtSalarioFgts
+            // 
+            this.txtSalarioFgts.Location = new System.Drawing.Point(19, 66);
+            this.txtSalarioFgts.Name = "txtSalarioFgts";
+            this.txtSalarioFgts.Size = new System.Drawing.Size(206, 20);
+            this.txtSalarioFgts.TabIndex = 1;
+            // 
+            // btnCalcularFgts
+            // 
+            this.btnCalcularFgts.Location = new System.Drawing.Point(19, 107);
+            this.btnCalcularFgts.Name = "btnCalcularFgts";
+            this.btnCalcularFgts.Size = new System.Drawing.Size(147, 64);
+            this.btnCalcularFgts.TabIndex = 2;
+            this.btnCalcularFgts.Text = "Calacular";
+            this.btnCalcularFgts.UseVisualStyleBackColor = true;
+            this.btnCalcularFgts.Click += new System.EventHandler(this.btnCalcularFgts_Click);
+            // 
+            // panelResultadoFgts
+            // 
+            this.panelResultadoFgts.Controls.Add(this.lblOValorDoSeuFgts);
+            this.panelResultadoFgts.Controls.Add(this.lblResultadoFgts);
+            this.panelResultadoFgts.Location = new System.Drawing.Point(3, 338);
+            this.panelResultadoFgts.Name = "panelResultadoFgts";
+            this.panelResultadoFgts.Size = new System.Drawing.Size(358, 100);
+            this.panelResultadoFgts.TabIndex = 3;
+            this.panelResultadoFgts.Visible = false;
+            // 
+            // lblResultadoFgts
+            // 
+            this.lblResultadoFgts.AutoSize = true;
+            this.lblResultadoFgts.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultadoFgts.Location = new System.Drawing.Point(3, 63);
+            this.lblResultadoFgts.Name = "lblResultadoFgts";
+            this.lblResultadoFgts.Size = new System.Drawing.Size(145, 37);
+            this.lblResultadoFgts.TabIndex = 4;
+            this.lblResultadoFgts.Text = "Resultado";
+            // 
+            // lblSalarioFsgts
+            // 
+            this.lblSalarioFsgts.AutoSize = true;
+            this.lblSalarioFsgts.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSalarioFsgts.Location = new System.Drawing.Point(12, 9);
+            this.lblSalarioFsgts.Name = "lblSalarioFsgts";
+            this.lblSalarioFsgts.Size = new System.Drawing.Size(489, 37);
+            this.lblSalarioFsgts.TabIndex = 0;
+            this.lblSalarioFsgts.Text = "Por favor informe abaixo seu salário ";
+            // 
+            // lblOValorDoSeuFgts
+            // 
+            this.lblOValorDoSeuFgts.AutoSize = true;
+            this.lblOValorDoSeuFgts.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOValorDoSeuFgts.Location = new System.Drawing.Point(3, 13);
+            this.lblOValorDoSeuFgts.Name = "lblOValorDoSeuFgts";
+            this.lblOValorDoSeuFgts.Size = new System.Drawing.Size(293, 37);
+            this.lblOValorDoSeuFgts.TabIndex = 5;
+            this.lblOValorDoSeuFgts.Text = "O valor do seu FGTS é";
+            // 
+            // frmBeneficioFgts
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::iRh.Windows.Properties.Resources.FGTS;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.panelResultadoFgts);
+            this.Controls.Add(this.btnCalcularFgts);
+            this.Controls.Add(this.txtSalarioFgts);
+            this.Controls.Add(this.lblSalarioFsgts);
+            this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.Name = "frmBeneficioFgts";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmBeneficioFgts";
+            this.panelResultadoFgts.ResumeLayout(false);
+            this.panelResultadoFgts.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+        private System.Windows.Forms.TextBox txtSalarioFgts;
+        private System.Windows.Forms.Button btnCalcularFgts;
+        private System.Windows.Forms.Panel panelResultadoFgts;
+        private System.Windows.Forms.Label lblResultadoFgts;
+        private System.Windows.Forms.Label lblSalarioFsgts;
+        private System.Windows.Forms.Label lblOValorDoSeuFgts;
     }
 }
