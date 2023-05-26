@@ -118,32 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="4124848-affiliate-marketing-aim-audience-targeting-focus-human-resources_114107" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\4124848-affiliate-marketing-aim-audience-targeting-focus-human-resources_114107.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RH_teste2-03" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RH_teste2-03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="money_contribution_charity_grant_donation_icon_252467" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\money_contribution_charity_grant_donation_icon_252467.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BotaoCalcular" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BotaoCalcular.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Tendencias-em-recursos-humanos-transformacoes-no-RH-brasileiro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Tendencias-em-recursos-humanos-transformacoes-no-RH-brasileiro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-parte-traseira-de-cartão-de-banco-100" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-parte-traseira-de-cartão-de-banco-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RH-03" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RH-03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="analytics_report_chart_management_employee_skill_ability_icon_210502" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\analytics_report_chart_management_employee_skill_ability_icon_210502.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="INSS1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\INSS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="businessman_team_recruitment_employee_resources_human_resource_icon_210723" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\businessman_team_recruitment_employee_resources_human_resource_icon_210723.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,37 +127,82 @@
   <data name="businessman_team_recruitment_employee_resources_human_resource_icon_210723 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\businessman_team_recruitment_employee_resources_human_resource_icon_210723 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="officialpersonavatar_man_funcionario_person_2832" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\officialpersonavatar_man_funcionario_person_2832.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BotaoCalcular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BotaoCalcular.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RH_teste2-03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RH_teste2-03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vale.01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vale.01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4124848-affiliate-marketing-aim-audience-targeting-focus-human-resources_114107" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4124848-affiliate-marketing-aim-audience-targeting-focus-human-resources_114107.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="analytics_report_chart_management_employee_skill_ability_icon_210502" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\analytics_report_chart_management_employee_skill_ability_icon_210502.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="adicional-noturno teste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\adicional-noturno teste.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RecursosHumanos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RecursosHumanos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INSS1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\INSS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="find_team_job_employee_hiring_recruitment_icon_2107271" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\find_team_job_employee_hiring_recruitment_icon_2107271.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="human_resources_search_employees_icon_187488" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\human_resources_search_employees_icon_187488.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="INSS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\INSS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="officialpersonavatar_man_funcionario_person_2832" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\officialpersonavatar_man_funcionario_person_2832.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="AdicionalNoturno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AdicionalNoturno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FGTS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FGTS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="find_team_job_employee_hiring_recruitment_icon_210727" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\find_team_job_employee_hiring_recruitment_icon_210727.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RecursosHumanos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RecursosHumanos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Vale.01" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Vale.01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Tendencias-em-recursos-humanos-transformacoes-no-RH-brasileiro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tendencias-em-recursos-humanos-transformacoes-no-RH-brasileiro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="RH-04" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\RH-04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="imposto-de-renda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imposto-de-renda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FGTS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FGTS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calculator_android_system_blue_smartphone_icon_252259" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calculator_android_system_blue_smartphone_icon_252259.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="undraw_Join_re_w1lh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\undraw_Join_re_w1lh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="shopping_commerce_money_balance_deposit_pay_cash_payment_wallet_icon_210820" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\shopping_commerce_money_balance_deposit_pay_cash_payment_wallet_icon_210820.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="find_team_job_employee_hiring_recruitment_icon_2107271" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\find_team_job_employee_hiring_recruitment_icon_2107271.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="find_team_job_employee_hiring_recruitment_icon_210727" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\find_team_job_employee_hiring_recruitment_icon_210727.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hora-Extra-Noturna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hora-Extra-Noturna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-parte-traseira-de-cartão-de-banco-100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-parte-traseira-de-cartão-de-banco-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RH-03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RH-03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bus_icon-icons.com_76529" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bus_icon-icons.com_76529.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="adicional-noturnoteste2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\adicional-noturnoteste2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

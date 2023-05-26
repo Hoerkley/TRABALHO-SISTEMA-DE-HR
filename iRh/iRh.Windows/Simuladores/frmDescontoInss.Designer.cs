@@ -63,6 +63,7 @@
             // 
             this.panelResultado.BackColor = System.Drawing.Color.Transparent;
             this.panelResultado.Controls.Add(this.lblResultado);
+            this.panelResultado.ForeColor = System.Drawing.Color.Black;
             this.panelResultado.Location = new System.Drawing.Point(12, 334);
             this.panelResultado.Name = "panelResultado";
             this.panelResultado.Size = new System.Drawing.Size(309, 100);
@@ -73,6 +74,7 @@
             // 
             this.lblResultado.AutoSize = true;
             this.lblResultado.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.lblResultado.Location = new System.Drawing.Point(14, 21);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(124, 30);
@@ -102,14 +104,18 @@
             // 
             // btnCalcular
             // 
+            this.btnCalcular.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnCalcular.BackgroundImage = global::iRh.Windows.Properties.Resources.calculator_android_system_blue_smartphone_icon_252259;
+            this.btnCalcular.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnCalcular.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCalcular.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcular.Image = global::iRh.Windows.Properties.Resources.BotaoCalcular;
-            this.btnCalcular.Location = new System.Drawing.Point(12, 202);
+            this.btnCalcular.Location = new System.Drawing.Point(12, 203);
             this.btnCalcular.Name = "btnCalcular";
-            this.btnCalcular.Size = new System.Drawing.Size(243, 126);
+            this.btnCalcular.Size = new System.Drawing.Size(243, 116);
             this.btnCalcular.TabIndex = 2;
             this.btnCalcular.Text = "Calcular INSS";
-            this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnCalcular.UseVisualStyleBackColor = false;
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
             // frmDescontoInss

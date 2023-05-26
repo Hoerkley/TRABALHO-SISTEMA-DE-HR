@@ -19,13 +19,13 @@ namespace iRh.Windows.Simuladores
                 MessageBox.Show("Informe seu salário base por favor!!!", "erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 txtSalario.Focus();
                 return;
-            }
+            }          
 
             try
             {
                 var salario = double.Parse(txtSalario.Text);
                 var descontoInss = Inss.Calcula(salario);
-
+                
                 lblResultado.Text = descontoInss.ToString("C");
                 panelResultado.Visible = true;
             }

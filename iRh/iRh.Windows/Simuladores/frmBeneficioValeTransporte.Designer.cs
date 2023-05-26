@@ -69,6 +69,7 @@
             // 
             this.lblResultadoVAleTransporte.AutoSize = true;
             this.lblResultadoVAleTransporte.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultadoVAleTransporte.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.lblResultadoVAleTransporte.Location = new System.Drawing.Point(31, 28);
             this.lblResultadoVAleTransporte.Name = "lblResultadoVAleTransporte";
             this.lblResultadoVAleTransporte.Size = new System.Drawing.Size(102, 20);
@@ -80,10 +81,10 @@
             this.btnCalculo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCalculo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCalculo.Image = global::iRh.Windows.Properties.Resources.icons8_parte_traseira_de_cartão_de_banco_100;
-            this.btnCalculo.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.btnCalculo.Location = new System.Drawing.Point(29, 133);
+            this.btnCalculo.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnCalculo.Location = new System.Drawing.Point(29, 129);
             this.btnCalculo.Name = "btnCalculo";
-            this.btnCalculo.Size = new System.Drawing.Size(116, 69);
+            this.btnCalculo.Size = new System.Drawing.Size(126, 73);
             this.btnCalculo.TabIndex = 4;
             this.btnCalculo.Text = "Calculo";
             this.btnCalculo.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
