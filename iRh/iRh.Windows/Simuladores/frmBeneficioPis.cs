@@ -16,5 +16,30 @@ namespace iRh.Windows.Simuladores
         {
             InitializeComponent();
         }
+
+        private void txtSalario_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Enter)
+            {
+                if(string.IsNullOrEmpty(txtSalario.Text))
+                {
+                    MessageBox.Show("Informe as horaspor favor!!!", "erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    txtSalario.Focus();
+                    return;
+                }
+
+                try
+                {
+                    double porcentagem1 = 0.075;
+                    double porcentagem2 = 0.09;
+                    double porcentagem3 = 0.1;
+
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("Informe um valor valido por favor!!!, ex: 3500", "erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
+        }
     }
 }
