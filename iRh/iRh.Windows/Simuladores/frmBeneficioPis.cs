@@ -30,10 +30,37 @@ namespace iRh.Windows.Simuladores
 
                 try
                 {
-                    double porcentagem1 = 0.075;
-                    double porcentagem2 = 0.09;
-                    double porcentagem3 = 0.1;
+                    double porcentagem1 = 0.075; double primeiroValor = 1100;
+                    double porcentagem2 = 0.09;  double segundoValor = 2100;
+                    double porcentagem3 = 0.1;   double terceirovalor = 3200;
+                    double porcentagem4 = 0.11;  double quartoValor = 4300;
 
+                    var salario = double.Parse(txtSalario.Text);
+                    double pis = 0;
+                    if (salario <= primeiroValor)
+                    {
+                        pis = salario * porcentagem1;
+                    }
+                    else if(salario <= segundoValor)
+                    {
+                        pis = salario * porcentagem2;
+                    }
+                    else if(salario <= terceirovalor)
+                    {
+                        pis = salario * porcentagem3;
+                    }
+                    else if(salario <= quartoValor)
+                    {
+                        pis = salario * porcentagem4;
+                    }
+                    else
+                    {
+                        pis = 474.07;
+                    }
+
+                    lblResultado.Text = pis.ToString("C");
+                    panelResultado.Visible = true;
+                    
                 }
                 catch (Exception)
                 {

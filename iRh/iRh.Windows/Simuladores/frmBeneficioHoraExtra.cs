@@ -55,17 +55,15 @@ namespace iRh.Windows.Simuladores
 
             try
             {
-                var salario = double.Parse(txtSalarioHoraExtra.Text);
-                var horasDiasUteis = double.Parse(txtHoraDiasUteis.Text);
-                var horasDomingosFeriados = double.Parse(txtHoraDomingosFeriados.Text);
+                var salario = double.Parse(txtSalarioHoraExtra.Text);                         
                 double valorHora = salario / 220;
 
                 if (rbDomingosFeriadosSim.Checked == true)
                 {
                     if(rbDiasUteisSim.Checked == true)
                     {
-                        
-
+                        var horasDomingosFeriados = double.Parse(txtHoraDomingosFeriados.Text);
+                        var horasDiasUteis = double.Parse(txtHoraDiasUteis.Text);
 
                         var valorHoraExtra100 = valorHora * 2;
                         var valorTotal100 = valorHoraExtra100 * horasDomingosFeriados;
@@ -80,6 +78,8 @@ namespace iRh.Windows.Simuladores
                     }
                     else
                     {
+                        var horasDomingosFeriados = double.Parse(txtHoraDomingosFeriados.Text);
+
                         var valorHoraExtra100 = valorHora * 2;
                         var valorTotal100 = valorHoraExtra100 * horasDomingosFeriados;
 
@@ -90,6 +90,7 @@ namespace iRh.Windows.Simuladores
                 }
                 else
                 {
+                    var horasDiasUteis = double.Parse(txtHoraDiasUteis.Text);
                     var valorHora50 = valorHora * 0.5;
                     var valorTotal50 = valorHora50 * horasDiasUteis;
 
