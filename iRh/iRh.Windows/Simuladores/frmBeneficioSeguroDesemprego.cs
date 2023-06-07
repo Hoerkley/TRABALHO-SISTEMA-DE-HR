@@ -94,6 +94,14 @@ namespace iRh.Windows.Simuladores
                                         {
                                             lblResultado.Text = "Tem direito a 5 parcelas do benefício";
                                         }
+                                        else if(mesesTrabalhados >= primeiraSolicitacao & mesesTrabalhados < tresPareclas)
+                                        {
+                                            lblResultado.Text = "Tem direito a 4 parcelas do benefício";
+                                        }
+                                        else
+                                        {
+                                            lblResultado.Text = "Tem direito a 3 parcelas do benefício";
+                                        }
                                     }
                                     else
                                     {
