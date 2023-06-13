@@ -52,6 +52,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.cmbEstados = new System.Windows.Forms.ComboBox();
+            this.cmbIdentificacao = new System.Windows.Forms.ComboBox();
+            this.lblIdentificacao = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -250,11 +252,30 @@
             this.cmbEstados.Size = new System.Drawing.Size(121, 21);
             this.cmbEstados.TabIndex = 27;
             // 
+            // cmbIdentificacao
+            // 
+            this.cmbIdentificacao.FormattingEnabled = true;
+            this.cmbIdentificacao.Location = new System.Drawing.Point(344, 228);
+            this.cmbIdentificacao.Name = "cmbIdentificacao";
+            this.cmbIdentificacao.Size = new System.Drawing.Size(285, 21);
+            this.cmbIdentificacao.TabIndex = 28;
+            // 
+            // lblIdentificacao
+            // 
+            this.lblIdentificacao.AutoSize = true;
+            this.lblIdentificacao.Location = new System.Drawing.Point(346, 212);
+            this.lblIdentificacao.Name = "lblIdentificacao";
+            this.lblIdentificacao.Size = new System.Drawing.Size(283, 13);
+            this.lblIdentificacao.TabIndex = 29;
+            this.lblIdentificacao.Text = "ESCOLHA SEU DOCUMENTO DE IDENTIFIÇÃO ";
+            // 
             // frmFuncionarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(933, 450);
+            this.Controls.Add(this.lblIdentificacao);
+            this.Controls.Add(this.cmbIdentificacao);
             this.Controls.Add(this.cmbEstados);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.button1);
@@ -282,6 +303,7 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "frmFuncionarios";
             this.Text = "frmFuncionario";
+            this.Load += new System.EventHandler(this.frmFuncionarios_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -313,5 +335,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.ComboBox cmbEstados;
+        private System.Windows.Forms.ComboBox cmbIdentificacao;
+        private System.Windows.Forms.Label lblIdentificacao;
     }
 }
