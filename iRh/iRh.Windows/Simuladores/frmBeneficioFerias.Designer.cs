@@ -28,11 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBeneficioFerias));
             this.lblSalario = new System.Windows.Forms.Label();
             this.txtSalario = new System.Windows.Forms.TextBox();
             this.panelResultado = new System.Windows.Forms.Panel();
             this.lblResultado = new System.Windows.Forms.Label();
+            this.pictureBoxFerias = new System.Windows.Forms.PictureBox();
+            this.btnCalcular = new System.Windows.Forms.Button();
             this.panelResultado.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFerias)).BeginInit();
             this.SuspendLayout();
             // 
             // lblSalario
@@ -66,25 +70,58 @@
             // lblResultado
             // 
             this.lblResultado.AutoSize = true;
-            this.lblResultado.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultado.Location = new System.Drawing.Point(15, 18);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(86, 21);
+            this.lblResultado.Size = new System.Drawing.Size(110, 30);
             this.lblResultado.TabIndex = 3;
             this.lblResultado.Text = "Resultado";
+            // 
+            // pictureBoxFerias
+            // 
+            this.pictureBoxFerias.BackColor = System.Drawing.Color.Transparent;
+         
+            this.pictureBoxFerias.Location = new System.Drawing.Point(337, 1);
+            this.pictureBoxFerias.Name = "pictureBoxFerias";
+            this.pictureBoxFerias.Size = new System.Drawing.Size(463, 458);
+            this.pictureBoxFerias.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxFerias.TabIndex = 3;
+            this.pictureBoxFerias.TabStop = false;
+            // 
+            // btnCalcular
+            // 
+            this.btnCalcular.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCalcular.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnCalcular.Location = new System.Drawing.Point(34, 125);
+            this.btnCalcular.Name = "btnCalcular";
+            this.btnCalcular.Size = new System.Drawing.Size(81, 35);
+            this.btnCalcular.TabIndex = 4;
+            this.btnCalcular.Text = "Calcular";
+            this.btnCalcular.UseVisualStyleBackColor = true;
+         
             // 
             // frmBeneficioFerias
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Blue;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnCalcular);
+            this.Controls.Add(this.pictureBoxFerias);
             this.Controls.Add(this.panelResultado);
             this.Controls.Add(this.txtSalario);
             this.Controls.Add(this.lblSalario);
+            this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "frmBeneficioFerias";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmBeneficioFerias";
             this.panelResultado.ResumeLayout(false);
             this.panelResultado.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFerias)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -96,5 +133,7 @@
         private System.Windows.Forms.TextBox txtSalario;
         private System.Windows.Forms.Panel panelResultado;
         private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.PictureBox pictureBoxFerias;
+        private System.Windows.Forms.Button btnCalcular;
     }
 }

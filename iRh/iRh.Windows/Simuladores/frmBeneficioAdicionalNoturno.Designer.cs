@@ -65,10 +65,12 @@
             this.btnCalcularAdicionalNoturno.BackColor = System.Drawing.Color.Transparent;
             this.btnCalcularAdicionalNoturno.BackgroundImage = global::iRh.Windows.Properties.Resources.calculator_android_system_blue_smartphone_icon_252259;
             this.btnCalcularAdicionalNoturno.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnCalcularAdicionalNoturno.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCalcularAdicionalNoturno.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCalcularAdicionalNoturno.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCalcularAdicionalNoturno.Location = new System.Drawing.Point(19, 203);
             this.btnCalcularAdicionalNoturno.Name = "btnCalcularAdicionalNoturno";
-            this.btnCalcularAdicionalNoturno.Size = new System.Drawing.Size(184, 75);
+            this.btnCalcularAdicionalNoturno.Size = new System.Drawing.Size(181, 85);
             this.btnCalcularAdicionalNoturno.TabIndex = 2;
             this.btnCalcularAdicionalNoturno.Text = "Calcular";
             this.btnCalcularAdicionalNoturno.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -92,14 +94,15 @@
             this.txtHorasTrabalhadas.Name = "txtHorasTrabalhadas";
             this.txtHorasTrabalhadas.Size = new System.Drawing.Size(339, 33);
             this.txtHorasTrabalhadas.TabIndex = 4;
+  
             // 
             // lblResultadoAdicionalNoturno
             // 
             this.lblResultadoAdicionalNoturno.AutoSize = true;
-            this.lblResultadoAdicionalNoturno.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultadoAdicionalNoturno.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultadoAdicionalNoturno.Location = new System.Drawing.Point(14, 33);
             this.lblResultadoAdicionalNoturno.Name = "lblResultadoAdicionalNoturno";
-            this.lblResultadoAdicionalNoturno.Size = new System.Drawing.Size(86, 21);
+            this.lblResultadoAdicionalNoturno.Size = new System.Drawing.Size(110, 30);
             this.lblResultadoAdicionalNoturno.TabIndex = 5;
             this.lblResultadoAdicionalNoturno.Text = "Resultado";
             // 
@@ -126,7 +129,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.BackColor = System.Drawing.Color.Blue;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox1);
@@ -142,6 +145,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "frmBeneficioAdicionalNoturno";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmBeneficioAdicionalNoturno";
             this.panelResultado.ResumeLayout(false);
             this.panelResultado.PerformLayout();

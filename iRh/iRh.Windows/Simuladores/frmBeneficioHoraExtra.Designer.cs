@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBeneficioHoraExtra));
             this.panelDomngosFeriados = new System.Windows.Forms.Panel();
             this.txtHoraDomingosFeriados = new System.Windows.Forms.TextBox();
             this.lblHoraDoingosFeriados = new System.Windows.Forms.Label();
@@ -47,11 +48,13 @@
             this.rbDiasUteisSim = new System.Windows.Forms.RadioButton();
             this.groupDomingosFeriados = new System.Windows.Forms.GroupBox();
             this.groupDiasUteis = new System.Windows.Forms.GroupBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelDomngosFeriados.SuspendLayout();
             this.panelDiasUteis.SuspendLayout();
             this.panelResutado.SuspendLayout();
             this.groupDomingosFeriados.SuspendLayout();
             this.groupDiasUteis.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelDomngosFeriados
@@ -84,6 +87,8 @@
             // 
             // btnCalcular
             // 
+            this.btnCalcular.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCalcular.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCalcular.Location = new System.Drawing.Point(12, 287);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(184, 66);
@@ -109,6 +114,7 @@
             this.txtSalarioHoraExtra.Name = "txtSalarioHoraExtra";
             this.txtSalarioHoraExtra.Size = new System.Drawing.Size(100, 29);
             this.txtSalarioHoraExtra.TabIndex = 4;
+
             // 
             // lblDomingosFeriados
             // 
@@ -170,10 +176,10 @@
             // lblResultado
             // 
             this.lblResultado.AutoSize = true;
-            this.lblResultado.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultado.Location = new System.Drawing.Point(21, 22);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(86, 21);
+            this.lblResultado.Size = new System.Drawing.Size(110, 30);
             this.lblResultado.TabIndex = 8;
             this.lblResultado.Text = "Resultado";
             // 
@@ -234,7 +240,6 @@
             this.groupDomingosFeriados.Size = new System.Drawing.Size(151, 58);
             this.groupDomingosFeriados.TabIndex = 18;
             this.groupDomingosFeriados.TabStop = false;
-
             // 
             // groupDiasUteis
             // 
@@ -245,13 +250,24 @@
             this.groupDiasUteis.Size = new System.Drawing.Size(160, 58);
             this.groupDiasUteis.TabIndex = 19;
             this.groupDiasUteis.TabStop = false;
-
+            // 
+            // pictureBox1
+            // 
+        
+            this.pictureBox1.Location = new System.Drawing.Point(376, 262);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(575, 241);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 20;
+            this.pictureBox1.TabStop = false;
             // 
             // frmBeneficioHoraExtra
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Blue;
             this.ClientSize = new System.Drawing.Size(952, 498);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupDiasUteis);
             this.Controls.Add(this.groupDomingosFeriados);
             this.Controls.Add(this.panelResutado);
@@ -262,9 +278,14 @@
             this.Controls.Add(this.lblSalrioFuncionarioHoraExtra);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.panelDomngosFeriados);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "frmBeneficioHoraExtra";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmBeneficioHoraExtra";
             this.Load += new System.EventHandler(this.frmBeneficioHoraExtra_Load);
+
             this.panelDomngosFeriados.ResumeLayout(false);
             this.panelDomngosFeriados.PerformLayout();
             this.panelDiasUteis.ResumeLayout(false);
@@ -275,6 +296,7 @@
             this.groupDomingosFeriados.PerformLayout();
             this.groupDiasUteis.ResumeLayout(false);
             this.groupDiasUteis.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -301,5 +323,6 @@
         private System.Windows.Forms.RadioButton rbDiasUteisSim;
         private System.Windows.Forms.GroupBox groupDomingosFeriados;
         private System.Windows.Forms.GroupBox groupDiasUteis;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

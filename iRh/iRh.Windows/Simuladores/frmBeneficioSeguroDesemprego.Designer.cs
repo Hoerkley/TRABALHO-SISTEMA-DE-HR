@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBeneficioSeguroDesemprego));
             this.chkJustaCausa = new System.Windows.Forms.CheckBox();
             this.txtMesesEmpregado = new System.Windows.Forms.TextBox();
             this.panelResultado = new System.Windows.Forms.Panel();
@@ -43,8 +44,10 @@
             this.panelSolicitacao = new System.Windows.Forms.Panel();
             this.btnSimular = new System.Windows.Forms.Button();
             this.btnContinuar = new System.Windows.Forms.Button();
+            this.pictureBoxSeguroDesemprego = new System.Windows.Forms.PictureBox();
             this.panelResultado.SuspendLayout();
             this.panelSolicitacao.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSeguroDesemprego)).BeginInit();
             this.SuspendLayout();
             // 
             // chkJustaCausa
@@ -78,10 +81,10 @@
             // lblResultado
             // 
             this.lblResultado.AutoSize = true;
-            this.lblResultado.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultado.Location = new System.Drawing.Point(3, 19);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(86, 21);
+            this.lblResultado.Size = new System.Drawing.Size(110, 30);
             this.lblResultado.TabIndex = 13;
             this.lblResultado.Text = "Resultado";
             // 
@@ -191,29 +194,46 @@
             // 
             // btnSimular
             // 
+            this.btnSimular.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSimular.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSimular.Location = new System.Drawing.Point(3, 239);
             this.btnSimular.Name = "btnSimular";
             this.btnSimular.Size = new System.Drawing.Size(108, 31);
             this.btnSimular.TabIndex = 16;
-            this.btnSimular.Text = "Simular";
+            this.btnSimular.Text = "Simular -->";
             this.btnSimular.UseVisualStyleBackColor = true;
             this.btnSimular.Click += new System.EventHandler(this.btnSimular_Click);
             // 
             // btnContinuar
             // 
+            this.btnContinuar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnContinuar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnContinuar.Location = new System.Drawing.Point(15, 114);
             this.btnContinuar.Name = "btnContinuar";
             this.btnContinuar.Size = new System.Drawing.Size(108, 31);
             this.btnContinuar.TabIndex = 15;
-            this.btnContinuar.Text = "Continuar";
+            this.btnContinuar.Text = "Continuar -->";
             this.btnContinuar.UseVisualStyleBackColor = true;
             this.btnContinuar.Click += new System.EventHandler(this.btnContinuar_Click);
+            // 
+            // pictureBoxSeguroDesemprego
+            // 
+       
+            this.pictureBoxSeguroDesemprego.Location = new System.Drawing.Point(494, 146);
+            this.pictureBoxSeguroDesemprego.Name = "pictureBoxSeguroDesemprego";
+            this.pictureBoxSeguroDesemprego.Size = new System.Drawing.Size(357, 175);
+            this.pictureBoxSeguroDesemprego.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxSeguroDesemprego.TabIndex = 16;
+            this.pictureBoxSeguroDesemprego.TabStop = false;
             // 
             // frmBeneficioSeguroDesemprego
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(805, 530);
+            this.BackColor = System.Drawing.Color.Blue;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(849, 530);
+            this.Controls.Add(this.pictureBoxSeguroDesemprego);
             this.Controls.Add(this.btnContinuar);
             this.Controls.Add(this.panelSolicitacao);
             this.Controls.Add(this.chkBeneficio);
@@ -221,12 +241,19 @@
             this.Controls.Add(this.chkRendaPropria);
             this.Controls.Add(this.panelResultado);
             this.Controls.Add(this.chkJustaCausa);
+            this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "frmBeneficioSeguroDesemprego";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmBeneficioSeguroDesemprego";
+
             this.panelResultado.ResumeLayout(false);
             this.panelResultado.PerformLayout();
             this.panelSolicitacao.ResumeLayout(false);
             this.panelSolicitacao.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSeguroDesemprego)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -248,5 +275,6 @@
         private System.Windows.Forms.Panel panelSolicitacao;
         private System.Windows.Forms.Button btnSimular;
         private System.Windows.Forms.Button btnContinuar;
+        private System.Windows.Forms.PictureBox pictureBoxSeguroDesemprego;
     }
 }

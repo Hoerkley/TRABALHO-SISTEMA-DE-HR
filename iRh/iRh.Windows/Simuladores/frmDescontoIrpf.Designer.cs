@@ -73,6 +73,7 @@
             this.txtSalarioIrrf.Name = "txtSalarioIrrf";
             this.txtSalarioIrrf.Size = new System.Drawing.Size(136, 29);
             this.txtSalarioIrrf.TabIndex = 2;
+   
             // 
             // lblResultado
             // 
@@ -90,7 +91,7 @@
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.lblSeuDescontoEstáAbaixo);
             this.panel1.Controls.Add(this.lblResultado);
-            this.panel1.Location = new System.Drawing.Point(12, 289);
+            this.panel1.Location = new System.Drawing.Point(12, 376);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(384, 72);
             this.panel1.TabIndex = 4;
@@ -112,16 +113,19 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::iRh.Windows.Properties.Resources.imposto_de_renda;
+            this.BackColor = System.Drawing.Color.Blue;       
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.txtSalarioIrrf);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.lblSalarioIrrf);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "frmDescontoIrpf";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmDescontoIrpf";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

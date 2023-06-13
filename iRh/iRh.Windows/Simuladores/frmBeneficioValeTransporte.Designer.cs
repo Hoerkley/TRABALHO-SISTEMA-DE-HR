@@ -64,24 +64,26 @@
             this.txtSalarioValeTRansporte.Name = "txtSalarioValeTRansporte";
             this.txtSalarioValeTRansporte.Size = new System.Drawing.Size(177, 20);
             this.txtSalarioValeTRansporte.TabIndex = 2;
+           
             // 
             // lblResultadoVAleTransporte
             // 
             this.lblResultadoVAleTransporte.AutoSize = true;
-            this.lblResultadoVAleTransporte.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultadoVAleTransporte.Font = new System.Drawing.Font("Lucida Sans Unicode", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultadoVAleTransporte.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.lblResultadoVAleTransporte.Location = new System.Drawing.Point(31, 28);
             this.lblResultadoVAleTransporte.Name = "lblResultadoVAleTransporte";
-            this.lblResultadoVAleTransporte.Size = new System.Drawing.Size(102, 20);
+            this.lblResultadoVAleTransporte.Size = new System.Drawing.Size(130, 25);
             this.lblResultadoVAleTransporte.TabIndex = 3;
             this.lblResultadoVAleTransporte.Text = "Resultado ";
             // 
             // btnCalculo
             // 
+            this.btnCalculo.BackgroundImage = global::iRh.Windows.Properties.Resources.calculator_android_system_blue_smartphone_icon_252259;
+            this.btnCalculo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnCalculo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCalculo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnCalculo.Image = global::iRh.Windows.Properties.Resources.icons8_parte_traseira_de_cartão_de_banco_100;
-            this.btnCalculo.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnCalculo.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCalculo.Location = new System.Drawing.Point(29, 129);
             this.btnCalculo.Name = "btnCalculo";
             this.btnCalculo.Size = new System.Drawing.Size(126, 73);
@@ -104,7 +106,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.CadetBlue;
+            this.BackColor = System.Drawing.Color.Blue;
             this.BackgroundImage = global::iRh.Windows.Properties.Resources.bus_icon_icons_com_76529;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(800, 450);
