@@ -14,6 +14,12 @@ namespace iRh.Windows.Core
         {
             var listaEstados = new List<Estados>();
             listaEstados.Add(new Estados
+            {
+                Nome = "",
+                Sigla = ""
+
+            });
+            listaEstados.Add(new Estados
             {          
                 Nome = "Rndônia",
                 Sigla = "RO"

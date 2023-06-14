@@ -9,7 +9,7 @@ namespace iRh.Windows.Core
     internal class Documentos
     {
         public int Id { get; set; }
-        public string Name { get; set; }
+        public string Nome { get; set; }
 
         public List<Documentos> ObterDocumentos()
         {
@@ -17,28 +17,33 @@ namespace iRh.Windows.Core
 
             listaDocumentos.Add(new Documentos
             {
+                Id = 0,
+                Nome = ""
+            });
+            listaDocumentos.Add(new Documentos
+            {
                 Id = 1,
-                Name = "Carteira de Identidade"
+                Nome = "Carteira de Identidade"
             });
             listaDocumentos.Add(new Documentos
             {
                 Id = 2,
-                Name = "Carteira de Motorista"
+                Nome = "Carteira de Motorista"
             });
             listaDocumentos.Add(new Documentos
             {
                 Id = 3,
-                Name = "Carteira de Trabalho"
+                Nome = "Carteira de Trabalho"
             });
             listaDocumentos.Add(new Documentos
             {
                 Id = 4,
-                Name = "Carteira Profissional"
+                Nome = "Carteira Profissional"
             });
             listaDocumentos.Add(new Documentos
             {
                 Id = 5,
-                Name = "Registro Nacional de Estrangeiro e Passaporte."
+                Nome = "Registro Nacional de Estrangeiro e Passaporte."
             });
 
             return listaDocumentos;

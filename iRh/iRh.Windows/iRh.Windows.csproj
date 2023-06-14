@@ -55,6 +55,7 @@
     <Compile Include="Core\AdicionalNoturno.cs" />
     <Compile Include="Core\CalculaFgts.cs" />
     <Compile Include="Core\Documentos.cs" />
+    <Compile Include="Core\Endereco.cs" />
     <Compile Include="Core\Estados.cs" />
     <Compile Include="Core\Inss.cs" />
     <Compile Include="Core\Irrf.cs" />

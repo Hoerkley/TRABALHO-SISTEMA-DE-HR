@@ -40,12 +40,21 @@ namespace iRh.Windows.Cadastros
         {
             var documento = new Documentos();
             var listaDocumentos = documento.ObterDocumentos();
-            var documentosAz = listaDocumentos.OrderBy(x => x.Name).ToList();
+            var documentosAz = listaDocumentos.OrderBy(x => x.Nome).ToList();
 
             cmbIdentificacao.Items.Clear();
             cmbIdentificacao.DataSource = documentosAz;
-            cmbIdentificacao.DisplayMember = "Name";
+            cmbIdentificacao.DisplayMember = "Nome";
             cmbIdentificacao.ValueMember = "Id";
+        }
+
+        private void btnPesquisar_Click(object sender, EventArgs e)
+        {
+            var cepDigitado = txtCep.Text;
+            var endereco = new Endereco();
+            endereco = endereco.ObterCep(cepDigitado);
+
+
         }
     }
 }

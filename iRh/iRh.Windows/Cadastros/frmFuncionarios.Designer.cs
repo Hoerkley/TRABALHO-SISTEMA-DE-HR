@@ -49,8 +49,8 @@
             this.label12 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.btnPesquisar = new System.Windows.Forms.Button();
+            this.lblWhatsapp = new System.Windows.Forms.LinkLabel();
             this.cmbEstados = new System.Windows.Forms.ComboBox();
             this.cmbIdentificacao = new System.Windows.Forms.ComboBox();
             this.lblIdentificacao = new System.Windows.Forms.Label();
@@ -107,7 +107,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(15, 84);
+            this.label4.Location = new System.Drawing.Point(356, 71);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(31, 13);
             this.label4.TabIndex = 6;
@@ -115,7 +115,7 @@
             // 
             // txtCep
             // 
-            this.txtCep.Location = new System.Drawing.Point(19, 100);
+            this.txtCep.Location = new System.Drawing.Point(360, 87);
             this.txtCep.Name = "txtCep";
             this.txtCep.Size = new System.Drawing.Size(116, 20);
             this.txtCep.TabIndex = 7;
@@ -225,24 +225,25 @@
             this.textBox7.Size = new System.Drawing.Size(116, 20);
             this.textBox7.TabIndex = 22;
             // 
-            // button1
+            // btnPesquisar
             // 
-            this.button1.Location = new System.Drawing.Point(150, 97);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(87, 23);
-            this.button1.TabIndex = 23;
-            this.button1.Text = "PESQUISAR";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnPesquisar.Location = new System.Drawing.Point(491, 84);
+            this.btnPesquisar.Name = "btnPesquisar";
+            this.btnPesquisar.Size = new System.Drawing.Size(87, 23);
+            this.btnPesquisar.TabIndex = 23;
+            this.btnPesquisar.Text = "PESQUISAR";
+            this.btnPesquisar.UseVisualStyleBackColor = true;
+            this.btnPesquisar.Click += new System.EventHandler(this.btnPesquisar_Click);
             // 
-            // linkLabel1
+            // lblWhatsapp
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(248, 301);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(86, 13);
-            this.linkLabel1.TabIndex = 25;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "chama no zap";
+            this.lblWhatsapp.AutoSize = true;
+            this.lblWhatsapp.Location = new System.Drawing.Point(248, 301);
+            this.lblWhatsapp.Name = "lblWhatsapp";
+            this.lblWhatsapp.Size = new System.Drawing.Size(86, 13);
+            this.lblWhatsapp.TabIndex = 25;
+            this.lblWhatsapp.TabStop = true;
+            this.lblWhatsapp.Text = "chama no zap";
             // 
             // cmbEstados
             // 
@@ -255,7 +256,7 @@
             // cmbIdentificacao
             // 
             this.cmbIdentificacao.FormattingEnabled = true;
-            this.cmbIdentificacao.Location = new System.Drawing.Point(344, 228);
+            this.cmbIdentificacao.Location = new System.Drawing.Point(17, 87);
             this.cmbIdentificacao.Name = "cmbIdentificacao";
             this.cmbIdentificacao.Size = new System.Drawing.Size(285, 21);
             this.cmbIdentificacao.TabIndex = 28;
@@ -263,7 +264,7 @@
             // lblIdentificacao
             // 
             this.lblIdentificacao.AutoSize = true;
-            this.lblIdentificacao.Location = new System.Drawing.Point(346, 212);
+            this.lblIdentificacao.Location = new System.Drawing.Point(14, 69);
             this.lblIdentificacao.Name = "lblIdentificacao";
             this.lblIdentificacao.Size = new System.Drawing.Size(283, 13);
             this.lblIdentificacao.TabIndex = 29;
@@ -277,8 +278,8 @@
             this.Controls.Add(this.lblIdentificacao);
             this.Controls.Add(this.cmbIdentificacao);
             this.Controls.Add(this.cmbEstados);
-            this.Controls.Add(this.linkLabel1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.lblWhatsapp);
+            this.Controls.Add(this.btnPesquisar);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.label12);
@@ -332,8 +333,8 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Button btnPesquisar;
+        private System.Windows.Forms.LinkLabel lblWhatsapp;
         private System.Windows.Forms.ComboBox cmbEstados;
         private System.Windows.Forms.ComboBox cmbIdentificacao;
         private System.Windows.Forms.Label lblIdentificacao;
