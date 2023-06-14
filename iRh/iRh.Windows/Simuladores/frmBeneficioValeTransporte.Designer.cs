@@ -64,7 +64,7 @@
             this.txtSalarioValeTRansporte.Name = "txtSalarioValeTRansporte";
             this.txtSalarioValeTRansporte.Size = new System.Drawing.Size(177, 20);
             this.txtSalarioValeTRansporte.TabIndex = 2;
-           
+            this.txtSalarioValeTRansporte.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSalarioValeTRansporte_KeyDown);
             // 
             // lblResultadoVAleTransporte
             // 

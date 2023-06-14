@@ -18,34 +18,39 @@ namespace iRh.Windows.Simuladores
             InitializeComponent();
         }
 
+        private void btnCalcular_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtSalarioPericulodidade.Text))
+            {
+                MessageBox.Show("Informe as horaspor favor!!!", "erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtSalarioPericulodidade.Focus();
+                return;
+            }
+
+            try
+            {
+                var salario = double.Parse(txtSalarioPericulodidade.Text);
+                var receberPericulosidade = salario * 0.03;
+                var inss = Inss.Calcula(salario);
+                var irrf = Irrf.Calcula(salario);
+                var adicionalNoturno = AdicionalNoturno.Calcula(salario, receberPericulosidade);
+                var totalReceber = receberPericulosidade + inss + irrf + adicionalNoturno;
+
+                lblResultado.Text = ("o total que irá receber é: ") + totalReceber.ToString("C");
+                panelResultado.Visible = true;
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Informe um valor valido por favor!!!, ex: 3500", "erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
         private void txtSalarioPericulodidade_KeyDown(object sender, KeyEventArgs e)
         {
-            
-            if(e.KeyCode == Keys.Enter)
+
+            if (e.KeyCode == Keys.Enter)
             {
-                if (string.IsNullOrEmpty(txtSalarioPericulodidade.Text))
-                {
-                    MessageBox.Show("Informe as horaspor favor!!!", "erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    txtSalarioPericulodidade.Focus();
-                    return;
-                }
 
-                try
-                {
-                    var salario = double.Parse(txtSalarioPericulodidade.Text);
-                    var receberPericulosidade = salario * 0.03;
-                    var inss = Inss.Calcula(salario);
-                    var irrf = Irrf.Calcula(salario);
-                    var adicionalNoturno = AdicionalNoturno.Calcula(salario, receberPericulosidade);
-                    var totalReceber = receberPericulosidade + inss + irrf + adicionalNoturno;
-
-                    lblResultado.Text = ("o total que irá receber é: ") + totalReceber.ToString("C");
-                    panelResultado.Visible = true;
-                }
-                catch (Exception)
-                {
-                    MessageBox.Show("Informe um valor valido por favor!!!, ex: 3500", "erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                }
             }
         }
     }

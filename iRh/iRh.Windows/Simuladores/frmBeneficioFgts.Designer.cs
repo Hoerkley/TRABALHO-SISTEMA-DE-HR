@@ -45,7 +45,7 @@
             this.txtSalarioFgts.Name = "txtSalarioFgts";
             this.txtSalarioFgts.Size = new System.Drawing.Size(206, 25);
             this.txtSalarioFgts.TabIndex = 1;
-         
+            this.txtSalarioFgts.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSalarioFgts_KeyDown);
             // 
             // btnCalcularFgts
             // 

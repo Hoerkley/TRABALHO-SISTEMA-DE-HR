@@ -58,7 +58,7 @@
             this.txtSalario.Name = "txtSalario";
             this.txtSalario.Size = new System.Drawing.Size(266, 35);
             this.txtSalario.TabIndex = 1;
-            
+            this.txtSalario.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSalario_KeyDown);
             // 
             // panelResultado
             // 
@@ -95,7 +95,6 @@
             // 
             // pictureBox1
             // 
-           
             this.pictureBox1.Location = new System.Drawing.Point(451, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(346, 448);

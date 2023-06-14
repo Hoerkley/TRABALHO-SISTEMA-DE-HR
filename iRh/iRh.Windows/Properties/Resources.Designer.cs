@@ -163,6 +163,16 @@ namespace iRh.Windows.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ferias_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("ferias-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FGTS {
             get {
                 object obj = ResourceManager.GetObject("FGTS", resourceCulture);
@@ -223,6 +233,16 @@ namespace iRh.Windows.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap image3_2_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("image3-2-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap imposto_de_renda {
             get {
                 object obj = ResourceManager.GetObject("imposto-de-renda", resourceCulture);
@@ -266,6 +286,26 @@ namespace iRh.Windows.Properties {
         internal static System.Drawing.Bitmap officialpersonavatar_man_funcionario_person_2832 {
             get {
                 object obj = ResourceManager.GetObject("officialpersonavatar_man_funcionario_person_2832", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap periculosidade_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("periculosidade-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pis_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("pis-removebg-preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

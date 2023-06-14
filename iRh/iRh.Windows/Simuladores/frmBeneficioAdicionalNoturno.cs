@@ -18,7 +18,7 @@ namespace iRh.Windows.Simuladores
             InitializeComponent();
         }
 
-        private void btnCalcularAdicionalNoturno_Click(object sender, EventArgs e)
+        public void btnCalcularAdicionalNoturno_Click(object sender, EventArgs e)
         {
             if(string.IsNullOrEmpty(txtSalarioAdicionalNoturno.Text))
             {
@@ -51,6 +51,20 @@ namespace iRh.Windows.Simuladores
             }
         }
 
-       
+        private void txtHorasTrabalhadas_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Enter)
+            {
+                btnCalcularAdicionalNoturno_Click(sender, e);
+            }
+        }
+
+        private void txtSalarioAdicionalNoturno_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Enter)
+            {
+                btnCalcularAdicionalNoturno_Click(sender, e);
+            }
+        }
     }
 }

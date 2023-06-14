@@ -42,5 +42,13 @@ namespace iRh.Windows.Simuladores
 
             }
         }
+
+        private void txtSalarioFgts_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Enter)
+            {
+                btnCalcularFgts_Click(sender, e);
+            }
+        }
     }
 }

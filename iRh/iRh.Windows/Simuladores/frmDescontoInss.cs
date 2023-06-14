@@ -38,5 +38,12 @@ namespace iRh.Windows.Simuladores
             
         }
 
+        private void txtSalario_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Enter)
+            {
+                btnCalcular_Click(sender, e);
+            }
+        }
     }
 }

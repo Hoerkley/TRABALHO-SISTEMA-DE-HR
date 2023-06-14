@@ -42,5 +42,13 @@ namespace iRh.Windows.Simuladores
             }
 
         }
+
+        private void txtSalarioValeTRansporte_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Enter)
+            {
+                btnCalculo_Click(sender, e);
+            }
+        }
     }
 }

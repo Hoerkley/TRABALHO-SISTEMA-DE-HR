@@ -1,7 +1,10 @@
 ﻿using iRh.Windows.Simuladores;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -22,8 +25,17 @@ namespace iRh.Windows.Core
 
         public Endereco ObterCep(string cep)
         {
-           
-            return new Endereco();
+            var enderecoApi = new Endereco();
+
+            var http = new HttpClient();
+
+            var url = new Uri("https://viacep.com.br/ws/" + cep + "/json/");
+            var resultado = http.GetAsync(url).GetAwaiter().GetResult();
+
+            var resultadoCompleto = resultado.Content.ReadAsStringAsync().GetAwaiter().GetResult();
+
+            enderecoApi = JsonConvert.DeserializeObject<Endereco>(resultadoCompleto);
+            return enderecoApi;
         }
     }
 }

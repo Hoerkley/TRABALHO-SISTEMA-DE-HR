@@ -59,6 +59,7 @@
             this.txtSalarioAdicionalNoturno.Name = "txtSalarioAdicionalNoturno";
             this.txtSalarioAdicionalNoturno.Size = new System.Drawing.Size(339, 33);
             this.txtSalarioAdicionalNoturno.TabIndex = 1;
+            this.txtSalarioAdicionalNoturno.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSalarioAdicionalNoturno_KeyDown);
             // 
             // btnCalcularAdicionalNoturno
             // 
@@ -94,7 +95,7 @@
             this.txtHorasTrabalhadas.Name = "txtHorasTrabalhadas";
             this.txtHorasTrabalhadas.Size = new System.Drawing.Size(339, 33);
             this.txtHorasTrabalhadas.TabIndex = 4;
-  
+            this.txtHorasTrabalhadas.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtHorasTrabalhadas_KeyDown);
             // 
             // lblResultadoAdicionalNoturno
             // 

@@ -127,6 +127,9 @@
   <data name="businessman_team_recruitment_employee_resources_human_resource_icon_210723 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\businessman_team_recruitment_employee_resources_human_resource_icon_210723 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="image3-2-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image3-2-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="officialpersonavatar_man_funcionario_person_2832" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\officialpersonavatar_man_funcionario_person_2832.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -181,6 +184,12 @@
   <data name="calculator_android_system_blue_smartphone_icon_252259" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\calculator_android_system_blue_smartphone_icon_252259.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="adicional-noturnoteste2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\adicional-noturnoteste2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="periculosidade-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\periculosidade-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="undraw_Join_re_w1lh" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\undraw_Join_re_w1lh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -189,6 +198,9 @@
   </data>
   <data name="find_team_job_employee_hiring_recruitment_icon_210727" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\find_team_job_employee_hiring_recruitment_icon_210727.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ferias-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ferias-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Hora-Extra-Noturna" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Hora-Extra-Noturna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,7 +214,7 @@
   <data name="bus_icon-icons.com_76529" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bus_icon-icons.com_76529.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="adicional-noturnoteste2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\adicional-noturnoteste2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pis-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pis-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
