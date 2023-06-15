@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBeneficioSeguroDesemprego));
             this.chkJustaCausa = new System.Windows.Forms.CheckBox();
             this.txtMesesEmpregado = new System.Windows.Forms.TextBox();
             this.panelResultado = new System.Windows.Forms.Panel();
@@ -218,7 +217,7 @@
             // 
             // pictureBoxSeguroDesemprego
             // 
-       
+            this.pictureBoxSeguroDesemprego.Image = global::iRh.Windows.Properties.Resources.consulta_seguro_desemprego_removebg_preview;
             this.pictureBoxSeguroDesemprego.Location = new System.Drawing.Point(494, 146);
             this.pictureBoxSeguroDesemprego.Name = "pictureBoxSeguroDesemprego";
             this.pictureBoxSeguroDesemprego.Size = new System.Drawing.Size(357, 175);
@@ -243,12 +242,10 @@
             this.Controls.Add(this.chkJustaCausa);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "frmBeneficioSeguroDesemprego";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmBeneficioSeguroDesemprego";
-
             this.panelResultado.ResumeLayout(false);
             this.panelResultado.PerformLayout();
             this.panelSolicitacao.ResumeLayout(false);

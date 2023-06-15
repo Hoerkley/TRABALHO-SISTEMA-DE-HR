@@ -44,7 +44,7 @@ namespace iRh.Windows.Simuladores
             panelDomngosFeriados.Visible = false;
         }
 
-        private void btnCalcular_Click(object sender, EventArgs e)
+        public void btnCalcular_Click(object sender, EventArgs e)
         {
            if(string.IsNullOrEmpty(txtSalarioHoraExtra.Text))
             {
@@ -102,6 +102,30 @@ namespace iRh.Windows.Simuladores
             {
                 MessageBox.Show("Informe um valor valido por favor!!!, ex: 3500", "erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-        }                          
+        }
+
+        private void txtSalarioHoraExtra_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Enter)
+            {
+                btnCalcular_Click(sender, e);
+            }
+        }
+
+        private void txtHoraDomingosFeriados_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnCalcular_Click(sender, e);
+            }
+        }
+
+        private void txtHoraDiasUteis_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnCalcular_Click(sender, e);
+            }
+        }
     }
 }

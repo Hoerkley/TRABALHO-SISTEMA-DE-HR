@@ -52,9 +52,55 @@ namespace iRh.Windows.Cadastros
         {
             var cepDigitado = txtCep.Text;
             var endereco = new Endereco();
+            if (txtCep.Text.Length < 9)
+            {
+                txtCep.Clear();
+                MessageBox.Show("Por favor informe um CEP valido", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtCep.Focus();
+                return;
+            }
+
             endereco = endereco.ObterCep(cepDigitado);
+            if (endereco.Erro == true)
+            {
+                txtCep.Clear();
+                MessageBox.Show("Por favor informe um CEP valido", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtCep.Focus();
+                return; ;
+            }
+           
+            txtBairro.Text = endereco.Bairro;
+            txtCep.Text = endereco.Cep;
+            txtCidade.Text = endereco.Localidade;
+            txtDdd.Text = endereco.Ddd;
+            txtLogradouro.Text = endereco.Logradouro;
+            cmbEstados.SelectedValue = endereco.Uf;
 
+           if(txtBairro.Text != "")
+            {
+                txtBairro.ReadOnly = true;
+                txtBairro.Enabled = false;
+                txtDdd.ReadOnly = true;
+                txtDdd.Enabled = false;
+                cmbEstados.Enabled = false;
+                txtCidade.ReadOnly = true;
+                txtCidade.Enabled = false;
+                txtLogradouro.ReadOnly = true;
+                txtLogradouro.Enabled = false ;
 
-        }
+            }
+           else 
+           {
+                txtDdd.ReadOnly = true;
+                txtDdd.Enabled = false;
+                cmbEstados.Enabled = false;
+                txtCidade.ReadOnly = true;
+                txtCidade.Enabled = false;
+            }
+        
+            
+        } 
     }
 }
+
+
