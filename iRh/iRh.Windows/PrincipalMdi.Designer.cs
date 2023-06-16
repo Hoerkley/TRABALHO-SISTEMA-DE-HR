@@ -45,6 +45,7 @@
             this.menuBeneficioSeguroDesemprego = new System.Windows.Forms.ToolStripMenuItem();
             this.menuBeneficioValeTransporte = new System.Windows.Forms.ToolStripMenuItem();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.contraChequeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -87,7 +88,8 @@
             this.menuBeneficioPericusidade,
             this.menuBeneficioPis,
             this.menuBeneficioSeguroDesemprego,
-            this.menuBeneficioValeTransporte});
+            this.menuBeneficioValeTransporte,
+            this.contraChequeToolStripMenuItem});
             this.simuladoresToolStripMenuItem.Name = "simuladoresToolStripMenuItem";
             this.simuladoresToolStripMenuItem.Size = new System.Drawing.Size(84, 20);
             this.simuladoresToolStripMenuItem.Text = "Simuladores";
@@ -167,6 +169,13 @@
             this.menuBeneficioValeTransporte.Text = "Beneficio de Vale Transporte";
             this.menuBeneficioValeTransporte.Click += new System.EventHandler(this.menuBeneficioValeTransporte_Click);
             // 
+            // contraChequeToolStripMenuItem
+            // 
+            this.contraChequeToolStripMenuItem.Name = "contraChequeToolStripMenuItem";
+            this.contraChequeToolStripMenuItem.Size = new System.Drawing.Size(249, 22);
+            this.contraChequeToolStripMenuItem.Text = "Contra Cheque";
+            this.contraChequeToolStripMenuItem.Click += new System.EventHandler(this.contraChequeToolStripMenuItem_Click);
+            // 
             // PrincipalMdi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -210,5 +219,6 @@
         private System.Windows.Forms.ToolStripMenuItem menuBeneficioSeguroDesemprego;
         private System.Windows.Forms.ToolStripMenuItem menuBeneficioValeTransporte;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.ToolStripMenuItem contraChequeToolStripMenuItem;
     }
 }

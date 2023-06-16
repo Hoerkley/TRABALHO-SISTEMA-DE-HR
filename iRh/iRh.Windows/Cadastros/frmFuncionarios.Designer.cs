@@ -31,7 +31,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtNomes = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtCpf = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -56,6 +55,7 @@
             this.txtComplemento = new System.Windows.Forms.TextBox();
             this.lblComplemento = new System.Windows.Forms.Label();
             this.txtCep = new System.Windows.Forms.MaskedTextBox();
+            this.txtCpf = new System.Windows.Forms.MaskedTextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -82,13 +82,6 @@
             this.label2.Size = new System.Drawing.Size(30, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "CPF";
-            // 
-            // txtCpf
-            // 
-            this.txtCpf.Location = new System.Drawing.Point(360, 87);
-            this.txtCpf.Name = "txtCpf";
-            this.txtCpf.Size = new System.Drawing.Size(192, 20);
-            this.txtCpf.TabIndex = 3;
             // 
             // label3
             // 
@@ -232,6 +225,7 @@
             this.lblWhatsapp.TabIndex = 25;
             this.lblWhatsapp.TabStop = true;
             this.lblWhatsapp.Text = "chama no zap";
+            this.lblWhatsapp.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblWhatsapp_LinkClicked);
             // 
             // cmbEstados
             // 
@@ -291,11 +285,21 @@
             this.txtCep.Size = new System.Drawing.Size(122, 20);
             this.txtCep.TabIndex = 33;
             // 
+            // txtCpf
+            // 
+            this.txtCpf.Location = new System.Drawing.Point(348, 88);
+            this.txtCpf.Mask = "000.000.000-00";
+            this.txtCpf.Name = "txtCpf";
+            this.txtCpf.Size = new System.Drawing.Size(100, 20);
+            this.txtCpf.TabIndex = 34;
+            this.txtCpf.ValidatingType = typeof(int);
+            // 
             // frmFuncionarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(933, 450);
+            this.Controls.Add(this.txtCpf);
             this.Controls.Add(this.txtCep);
             this.Controls.Add(this.lblComplemento);
             this.Controls.Add(this.txtComplemento);
@@ -320,7 +324,6 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.txtCpf);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtNomes);
             this.Controls.Add(this.label1);
@@ -338,7 +341,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtNomes;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtCpf;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label6;
@@ -363,5 +365,6 @@
         private System.Windows.Forms.TextBox txtComplemento;
         private System.Windows.Forms.Label lblComplemento;
         private System.Windows.Forms.MaskedTextBox txtCep;
+        private System.Windows.Forms.MaskedTextBox txtCpf;
     }
 }

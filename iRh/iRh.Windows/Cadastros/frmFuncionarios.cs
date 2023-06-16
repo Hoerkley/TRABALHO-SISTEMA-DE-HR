@@ -99,7 +99,12 @@ namespace iRh.Windows.Cadastros
             }
         
             
-        } 
+        }
+
+        private void lblWhatsapp_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://api.whatsapp.com/send?phone=" + txtDdd + txtTelefone.Text + "&text=Ol%C3%A1%2C%20como%20posso%20te%20ajudar%3F");
+        }
     }
 }
 
