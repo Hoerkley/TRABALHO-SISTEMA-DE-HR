@@ -18,7 +18,7 @@ namespace iRh.Windows.Simuladores
             InitializeComponent();
         }
 
-        private void btnSimular_Click(object sender, EventArgs e)
+        public void btnSimular_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(txtSalarioBruto.Text))
             {
@@ -112,14 +112,58 @@ namespace iRh.Windows.Simuladores
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void txtSalarioBruto_KeyDown(object sender, KeyEventArgs e)
         {
-
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnSimular_Click(sender, e);
+            }
         }
 
-        private void panelResultado_Paint(object sender, PaintEventArgs e)
+        private void txtHorasExtras100_KeyDown(object sender, KeyEventArgs e)
         {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnSimular_Click(sender, e);
+            }
+        }
 
+        private void txtHoraExtra50_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnSimular_Click(sender, e);
+            }
+        }
+
+        private void txtPericulosidade_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnSimular_Click(sender, e);
+            }
+        }
+
+        private void txtNoturno_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnSimular_Click(sender, e);
+            }
+        }
+
+        private void chkvaleTransporte_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnSimular_Click(sender, e);
+            }
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            var form = new frmContraCheque();       
+            form.Show();
         }
     }
 }
