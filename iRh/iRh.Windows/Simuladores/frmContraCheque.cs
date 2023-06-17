@@ -102,6 +102,7 @@ namespace iRh.Windows.Simuladores
 
                     panelPerguntas.Visible = false;
                     panelResultado.Visible = true;
+                    btnSimular.Visible = true;
 
                 }
             }

@@ -632,6 +632,7 @@
             this.btnVoltar.TabIndex = 31;
             this.btnVoltar.Text = "Simular novamente -->";
             this.btnVoltar.UseVisualStyleBackColor = false;
+            this.btnVoltar.Visible = false;
             this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // frmContraCheque
