@@ -46,6 +46,7 @@ namespace iRh.Windows.Simuladores
                     var valorValeTransporte = ValeTransporte.Calculo(salarioBruto);
                     var valorPericulosidade = Periculosidade.Calcula(salarioBruto, periculosidade);
                     var valorTotalHoraExtra = valorHora100 + valorHora50;
+                    var salarioTotal = salarioBruto - inss;
 
                     lblResultadoNoturno.Text = valorNoturno.ToString("C");
                     lblResultadoIrpf.Text = irpf.ToString("C");
@@ -54,13 +55,15 @@ namespace iRh.Windows.Simuladores
                     lblResultadoFgts.Text = fgts.ToString("C");
                     lblResultadoValeTransporte.Text = valorValeTransporte.ToString("C");
                     lblResultadoPericulosidade.Text = valorPericulosidade.ToString("C");
-                    var totaisAdionais = valorNoturno + valorPericulosidade + valorTotalHoraExtra;
+                    lblResultadoSalario.Text = salarioTotal.ToString("C");
+
+                    var totaisAdionais = salarioTotal + valorNoturno + valorPericulosidade + valorTotalHoraExtra;
                     var totaisDescontos = inss + irpf + fgts;
                     var resultadoLiquido = totaisAdionais - totaisDescontos;
 
                     lblResultadoAdicional.Text = totaisAdionais.ToString("C");
                     lbllblResultadoDesconto.Text = totaisDescontos.ToString("C");
-                    lblResultadoSalario.Text = resultadoLiquido.ToString("C");
+                    lblSalarioReceber.Text = resultadoLiquido.ToString("C");
 
                     panelPerguntas.Visible = false;
                     panelResultado.Visible = true;
@@ -77,6 +80,7 @@ namespace iRh.Windows.Simuladores
                     var valorValeTransporte = ValeTransporte.Calculo(salarioBruto);
                     var valorPericulosidade = Periculosidade.Calcula(salarioBruto, periculosidade);
                     var valorTotalHoraExtra = valorHora100 + valorHora50;
+                    var salarioTotal = salarioBruto - inss;
 
                     valorValeTransporte = 0;
                     lblResultadoNoturno.Text = valorNoturno.ToString("C");
@@ -86,24 +90,20 @@ namespace iRh.Windows.Simuladores
                     lblResultadoFgts.Text = fgts.ToString("C");
                     lblResultadoValeTransporte.Text = valorValeTransporte.ToString("C");
                     lblResultadoPericulosidade.Text = valorPericulosidade.ToString("C");
+                    lblResultadoSalario.Text = salarioTotal.ToString("C");
                  
-                    var totaisAdionais = valorNoturno + valorPericulosidade + valorTotalHoraExtra;
+                    var totaisAdionais = salarioTotal + valorNoturno + valorPericulosidade + valorTotalHoraExtra;
                     var totaisDescontos = inss + irpf + fgts;
                     var resultadoLiquido = totaisAdionais - totaisDescontos;
 
                     lblResultadoAdicional.Text = totaisAdionais.ToString("C");
                     lbllblResultadoDesconto.Text = totaisDescontos.ToString("C");
-                    lblResultadoSalario.Text = resultadoLiquido.ToString("C");
+                    lblSalarioReceber.Text = resultadoLiquido.ToString("C");
 
                     panelPerguntas.Visible = false;
                     panelResultado.Visible = true;
+
                 }
-
-                
-
-              
-
-       
             }
             catch (Exception)
             {
@@ -113,6 +113,11 @@ namespace iRh.Windows.Simuladores
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelResultado_Paint(object sender, PaintEventArgs e)
         {
 
         }

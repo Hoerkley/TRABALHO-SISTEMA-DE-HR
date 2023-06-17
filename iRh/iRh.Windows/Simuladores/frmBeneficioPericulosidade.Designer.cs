@@ -43,6 +43,7 @@
             // 
             this.lblSalario.AutoSize = true;
             this.lblSalario.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSalario.ForeColor = System.Drawing.Color.White;
             this.lblSalario.Location = new System.Drawing.Point(8, 25);
             this.lblSalario.Name = "lblSalario";
             this.lblSalario.Size = new System.Drawing.Size(257, 21);
@@ -62,6 +63,7 @@
             // 
             this.lblResultado.AutoSize = true;
             this.lblResultado.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.ForeColor = System.Drawing.Color.White;
             this.lblResultado.Location = new System.Drawing.Point(14, 15);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(110, 30);
@@ -79,14 +81,18 @@
             // 
             // btnCalcular
             // 
+            this.btnCalcular.BackgroundImage = global::iRh.Windows.Properties.Resources.calculate_FILL0_wght400_GRAD0_opsz48;
+            this.btnCalcular.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnCalcular.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCalcular.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCalcular.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalcular.ForeColor = System.Drawing.Color.White;
             this.btnCalcular.Location = new System.Drawing.Point(12, 97);
             this.btnCalcular.Name = "btnCalcular";
-            this.btnCalcular.Size = new System.Drawing.Size(100, 42);
+            this.btnCalcular.Size = new System.Drawing.Size(117, 66);
             this.btnCalcular.TabIndex = 4;
             this.btnCalcular.Text = "Calcular";
+            this.btnCalcular.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnCalcular.UseVisualStyleBackColor = true;
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
@@ -94,6 +100,7 @@
             // 
             this.lblHoras.AutoSize = true;
             this.lblHoras.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHoras.ForeColor = System.Drawing.Color.White;
             this.lblHoras.Location = new System.Drawing.Point(311, 25);
             this.lblHoras.Name = "lblHoras";
             this.lblHoras.Size = new System.Drawing.Size(254, 21);

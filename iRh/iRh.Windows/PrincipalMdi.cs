@@ -96,7 +96,7 @@ namespace iRh.Windows
             form.Show();
         }
 
-        private void contraChequeToolStripMenuItem_Click(object sender, EventArgs e)
+        private void contraChequeToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             var form = new frmContraCheque();
             form.MdiParent = this;

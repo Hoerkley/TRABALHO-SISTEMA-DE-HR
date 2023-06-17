@@ -346,5 +346,17 @@
   <ItemGroup>
     <None Include="Resources\Aha-Soft-Blue-Money-bag.48.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moneyfolder_993541.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\credit_card_hand_payment_pay_icon_1432861.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document_file_page_paper_icon_1271941.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculate_FILL0_wght400_GRAD0_opsz48.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

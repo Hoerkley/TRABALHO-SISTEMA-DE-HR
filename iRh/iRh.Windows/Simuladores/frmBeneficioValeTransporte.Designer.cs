@@ -42,6 +42,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Lucida Sans Unicode", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(12, 19);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(473, 25);
@@ -52,6 +53,7 @@
             // 
             this.lblSalarioValeTransporte.AutoSize = true;
             this.lblSalarioValeTransporte.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSalarioValeTransporte.ForeColor = System.Drawing.Color.White;
             this.lblSalarioValeTransporte.Location = new System.Drawing.Point(25, 67);
             this.lblSalarioValeTransporte.Name = "lblSalarioValeTransporte";
             this.lblSalarioValeTransporte.Size = new System.Drawing.Size(182, 20);
@@ -70,7 +72,7 @@
             // 
             this.lblResultadoVAleTransporte.AutoSize = true;
             this.lblResultadoVAleTransporte.Font = new System.Drawing.Font("Lucida Sans Unicode", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultadoVAleTransporte.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lblResultadoVAleTransporte.ForeColor = System.Drawing.Color.White;
             this.lblResultadoVAleTransporte.Location = new System.Drawing.Point(31, 28);
             this.lblResultadoVAleTransporte.Name = "lblResultadoVAleTransporte";
             this.lblResultadoVAleTransporte.Size = new System.Drawing.Size(130, 25);
@@ -79,11 +81,12 @@
             // 
             // btnCalculo
             // 
-            this.btnCalculo.BackgroundImage = global::iRh.Windows.Properties.Resources.calculator_android_system_blue_smartphone_icon_252259;
-            this.btnCalculo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnCalculo.BackgroundImage = global::iRh.Windows.Properties.Resources.calculate_FILL0_wght400_GRAD0_opsz48;
+            this.btnCalculo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnCalculo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCalculo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCalculo.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalculo.ForeColor = System.Drawing.Color.White;
             this.btnCalculo.Location = new System.Drawing.Point(29, 129);
             this.btnCalculo.Name = "btnCalculo";
             this.btnCalculo.Size = new System.Drawing.Size(126, 73);

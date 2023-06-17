@@ -31,12 +31,12 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBeneficioAdicionalNoturno));
             this.lblSalarioAdicionalNoturno = new System.Windows.Forms.Label();
             this.txtSalarioAdicionalNoturno = new System.Windows.Forms.TextBox();
-            this.btnCalcularAdicionalNoturno = new System.Windows.Forms.Button();
             this.lblHorasTrabalhadas = new System.Windows.Forms.Label();
             this.txtHorasTrabalhadas = new System.Windows.Forms.TextBox();
             this.lblResultadoAdicionalNoturno = new System.Windows.Forms.Label();
             this.panelResultado = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnCalcularAdicionalNoturno = new System.Windows.Forms.Button();
             this.panelResultado.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -46,6 +46,7 @@
             this.lblSalarioAdicionalNoturno.AutoSize = true;
             this.lblSalarioAdicionalNoturno.BackColor = System.Drawing.Color.Transparent;
             this.lblSalarioAdicionalNoturno.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSalarioAdicionalNoturno.ForeColor = System.Drawing.Color.White;
             this.lblSalarioAdicionalNoturno.Location = new System.Drawing.Point(12, 9);
             this.lblSalarioAdicionalNoturno.Name = "lblSalarioAdicionalNoturno";
             this.lblSalarioAdicionalNoturno.Size = new System.Drawing.Size(371, 37);
@@ -61,27 +62,11 @@
             this.txtSalarioAdicionalNoturno.TabIndex = 1;
             this.txtSalarioAdicionalNoturno.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSalarioAdicionalNoturno_KeyDown);
             // 
-            // btnCalcularAdicionalNoturno
-            // 
-            this.btnCalcularAdicionalNoturno.BackColor = System.Drawing.Color.Transparent;
-            this.btnCalcularAdicionalNoturno.BackgroundImage = global::iRh.Windows.Properties.Resources.calculator_android_system_blue_smartphone_icon_252259;
-            this.btnCalcularAdicionalNoturno.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnCalcularAdicionalNoturno.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCalcularAdicionalNoturno.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnCalcularAdicionalNoturno.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcularAdicionalNoturno.Location = new System.Drawing.Point(19, 203);
-            this.btnCalcularAdicionalNoturno.Name = "btnCalcularAdicionalNoturno";
-            this.btnCalcularAdicionalNoturno.Size = new System.Drawing.Size(181, 85);
-            this.btnCalcularAdicionalNoturno.TabIndex = 2;
-            this.btnCalcularAdicionalNoturno.Text = "Calcular";
-            this.btnCalcularAdicionalNoturno.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnCalcularAdicionalNoturno.UseVisualStyleBackColor = false;
-            this.btnCalcularAdicionalNoturno.Click += new System.EventHandler(this.btnCalcularAdicionalNoturno_Click);
-            // 
             // lblHorasTrabalhadas
             // 
             this.lblHorasTrabalhadas.AutoSize = true;
             this.lblHorasTrabalhadas.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHorasTrabalhadas.ForeColor = System.Drawing.Color.White;
             this.lblHorasTrabalhadas.Location = new System.Drawing.Point(15, 103);
             this.lblHorasTrabalhadas.Name = "lblHorasTrabalhadas";
             this.lblHorasTrabalhadas.Size = new System.Drawing.Size(253, 21);
@@ -101,6 +86,7 @@
             // 
             this.lblResultadoAdicionalNoturno.AutoSize = true;
             this.lblResultadoAdicionalNoturno.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultadoAdicionalNoturno.ForeColor = System.Drawing.Color.White;
             this.lblResultadoAdicionalNoturno.Location = new System.Drawing.Point(14, 33);
             this.lblResultadoAdicionalNoturno.Name = "lblResultadoAdicionalNoturno";
             this.lblResultadoAdicionalNoturno.Size = new System.Drawing.Size(110, 30);
@@ -125,6 +111,24 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
+            // 
+            // btnCalcularAdicionalNoturno
+            // 
+            this.btnCalcularAdicionalNoturno.BackColor = System.Drawing.Color.Transparent;
+            this.btnCalcularAdicionalNoturno.BackgroundImage = global::iRh.Windows.Properties.Resources.calculate_FILL0_wght400_GRAD0_opsz48;
+            this.btnCalcularAdicionalNoturno.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnCalcularAdicionalNoturno.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCalcularAdicionalNoturno.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnCalcularAdicionalNoturno.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalcularAdicionalNoturno.ForeColor = System.Drawing.Color.White;
+            this.btnCalcularAdicionalNoturno.Location = new System.Drawing.Point(19, 203);
+            this.btnCalcularAdicionalNoturno.Name = "btnCalcularAdicionalNoturno";
+            this.btnCalcularAdicionalNoturno.Size = new System.Drawing.Size(181, 85);
+            this.btnCalcularAdicionalNoturno.TabIndex = 2;
+            this.btnCalcularAdicionalNoturno.Text = "Calcular";
+            this.btnCalcularAdicionalNoturno.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnCalcularAdicionalNoturno.UseVisualStyleBackColor = false;
+            this.btnCalcularAdicionalNoturno.Click += new System.EventHandler(this.btnCalcularAdicionalNoturno_Click);
             // 
             // frmBeneficioAdicionalNoturno
             // 

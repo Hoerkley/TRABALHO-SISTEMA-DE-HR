@@ -45,7 +45,7 @@
             this.lblSalarioIrrf.AutoSize = true;
             this.lblSalarioIrrf.BackColor = System.Drawing.Color.Transparent;
             this.lblSalarioIrrf.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSalarioIrrf.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblSalarioIrrf.ForeColor = System.Drawing.Color.White;
             this.lblSalarioIrrf.Location = new System.Drawing.Point(12, 9);
             this.lblSalarioIrrf.Name = "lblSalarioIrrf";
             this.lblSalarioIrrf.Size = new System.Drawing.Size(371, 37);
@@ -65,7 +65,7 @@
             // 
             this.lblResultado.AutoSize = true;
             this.lblResultado.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.ForeColor = System.Drawing.Color.Black;
+            this.lblResultado.ForeColor = System.Drawing.Color.White;
             this.lblResultado.Location = new System.Drawing.Point(3, 30);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(110, 30);
@@ -88,7 +88,7 @@
             this.lblSeuDescontoEstáAbaixo.AutoSize = true;
             this.lblSeuDescontoEstáAbaixo.BackColor = System.Drawing.Color.Transparent;
             this.lblSeuDescontoEstáAbaixo.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeuDescontoEstáAbaixo.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblSeuDescontoEstáAbaixo.ForeColor = System.Drawing.Color.White;
             this.lblSeuDescontoEstáAbaixo.Location = new System.Drawing.Point(3, 0);
             this.lblSeuDescontoEstáAbaixo.Name = "lblSeuDescontoEstáAbaixo";
             this.lblSeuDescontoEstáAbaixo.Size = new System.Drawing.Size(317, 30);

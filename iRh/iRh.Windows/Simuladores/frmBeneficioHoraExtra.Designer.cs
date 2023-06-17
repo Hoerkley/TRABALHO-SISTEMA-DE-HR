@@ -82,6 +82,7 @@
             // 
             this.lblHoraDoingosFeriados.AutoSize = true;
             this.lblHoraDoingosFeriados.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHoraDoingosFeriados.ForeColor = System.Drawing.Color.White;
             this.lblHoraDoingosFeriados.Location = new System.Drawing.Point(8, 10);
             this.lblHoraDoingosFeriados.Name = "lblHoraDoingosFeriados";
             this.lblHoraDoingosFeriados.Size = new System.Drawing.Size(222, 21);
@@ -90,13 +91,18 @@
             // 
             // btnCalcular
             // 
+            this.btnCalcular.BackgroundImage = global::iRh.Windows.Properties.Resources.calculate_FILL0_wght400_GRAD0_opsz48;
+            this.btnCalcular.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnCalcular.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCalcular.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnCalcular.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalcular.ForeColor = System.Drawing.Color.White;
             this.btnCalcular.Location = new System.Drawing.Point(12, 287);
             this.btnCalcular.Name = "btnCalcular";
-            this.btnCalcular.Size = new System.Drawing.Size(184, 66);
+            this.btnCalcular.Size = new System.Drawing.Size(146, 75);
             this.btnCalcular.TabIndex = 1;
             this.btnCalcular.Text = "Calcular";
+            this.btnCalcular.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnCalcular.UseVisualStyleBackColor = true;
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
@@ -104,6 +110,7 @@
             // 
             this.lblSalrioFuncionarioHoraExtra.AutoSize = true;
             this.lblSalrioFuncionarioHoraExtra.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSalrioFuncionarioHoraExtra.ForeColor = System.Drawing.Color.White;
             this.lblSalrioFuncionarioHoraExtra.Location = new System.Drawing.Point(12, 9);
             this.lblSalrioFuncionarioHoraExtra.Name = "lblSalrioFuncionarioHoraExtra";
             this.lblSalrioFuncionarioHoraExtra.Size = new System.Drawing.Size(257, 21);
@@ -123,7 +130,8 @@
             // 
             this.lblDomingosFeriados.AutoSize = true;
             this.lblDomingosFeriados.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDomingosFeriados.Location = new System.Drawing.Point(12, 96);
+            this.lblDomingosFeriados.ForeColor = System.Drawing.Color.White;
+            this.lblDomingosFeriados.Location = new System.Drawing.Point(26, 94);
             this.lblDomingosFeriados.Name = "lblDomingosFeriados";
             this.lblDomingosFeriados.Size = new System.Drawing.Size(393, 21);
             this.lblDomingosFeriados.TabIndex = 5;
@@ -152,6 +160,7 @@
             // 
             this.lblHoraDiasUteis.AutoSize = true;
             this.lblHoraDiasUteis.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHoraDiasUteis.ForeColor = System.Drawing.Color.White;
             this.lblHoraDiasUteis.Location = new System.Drawing.Point(8, 10);
             this.lblHoraDiasUteis.Name = "lblHoraDiasUteis";
             this.lblHoraDiasUteis.Size = new System.Drawing.Size(222, 21);
@@ -162,7 +171,8 @@
             // 
             this.lblDiasUteis.AutoSize = true;
             this.lblDiasUteis.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDiasUteis.Location = new System.Drawing.Point(422, 96);
+            this.lblDiasUteis.ForeColor = System.Drawing.Color.White;
+            this.lblDiasUteis.Location = new System.Drawing.Point(436, 94);
             this.lblDiasUteis.Name = "lblDiasUteis";
             this.lblDiasUteis.Size = new System.Drawing.Size(298, 21);
             this.lblDiasUteis.TabIndex = 9;
@@ -181,6 +191,7 @@
             // 
             this.lblResultado.AutoSize = true;
             this.lblResultado.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.ForeColor = System.Drawing.Color.White;
             this.lblResultado.Location = new System.Drawing.Point(21, 22);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(110, 30);
@@ -214,6 +225,7 @@
             // rbDomingosFeriadosNao
             // 
             this.rbDomingosFeriadosNao.AutoSize = true;
+            this.rbDomingosFeriadosNao.ForeColor = System.Drawing.Color.White;
             this.rbDomingosFeriadosNao.Location = new System.Drawing.Point(93, 29);
             this.rbDomingosFeriadosNao.Name = "rbDomingosFeriadosNao";
             this.rbDomingosFeriadosNao.Size = new System.Drawing.Size(45, 17);
@@ -239,7 +251,8 @@
             // 
             this.groupDomingosFeriados.Controls.Add(this.rbDomingosFeriadosSim);
             this.groupDomingosFeriados.Controls.Add(this.rbDomingosFeriadosNao);
-            this.groupDomingosFeriados.Location = new System.Drawing.Point(16, 120);
+            this.groupDomingosFeriados.ForeColor = System.Drawing.Color.White;
+            this.groupDomingosFeriados.Location = new System.Drawing.Point(30, 118);
             this.groupDomingosFeriados.Name = "groupDomingosFeriados";
             this.groupDomingosFeriados.Size = new System.Drawing.Size(151, 58);
             this.groupDomingosFeriados.TabIndex = 18;
@@ -249,7 +262,8 @@
             // 
             this.groupDiasUteis.Controls.Add(this.rbDiasUteisSim);
             this.groupDiasUteis.Controls.Add(this.rbDiasUteisNao);
-            this.groupDiasUteis.Location = new System.Drawing.Point(438, 120);
+            this.groupDiasUteis.ForeColor = System.Drawing.Color.White;
+            this.groupDiasUteis.Location = new System.Drawing.Point(452, 118);
             this.groupDiasUteis.Name = "groupDiasUteis";
             this.groupDiasUteis.Size = new System.Drawing.Size(160, 58);
             this.groupDiasUteis.TabIndex = 19;

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBeneficioSeguroDesemprego));
             this.chkJustaCausa = new System.Windows.Forms.CheckBox();
             this.txtMesesEmpregado = new System.Windows.Forms.TextBox();
             this.panelResultado = new System.Windows.Forms.Panel();
@@ -53,6 +54,7 @@
             // 
             this.chkJustaCausa.AutoSize = true;
             this.chkJustaCausa.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkJustaCausa.ForeColor = System.Drawing.Color.White;
             this.chkJustaCausa.Location = new System.Drawing.Point(15, 33);
             this.chkJustaCausa.Name = "chkJustaCausa";
             this.chkJustaCausa.Size = new System.Drawing.Size(314, 21);
@@ -81,6 +83,7 @@
             // 
             this.lblResultado.AutoSize = true;
             this.lblResultado.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.ForeColor = System.Drawing.Color.White;
             this.lblResultado.Location = new System.Drawing.Point(3, 19);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(110, 30);
@@ -91,6 +94,7 @@
             // 
             this.chkRendaPropria.AutoSize = true;
             this.chkRendaPropria.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkRendaPropria.ForeColor = System.Drawing.Color.White;
             this.chkRendaPropria.Location = new System.Drawing.Point(15, 60);
             this.chkRendaPropria.Name = "chkRendaPropria";
             this.chkRendaPropria.Size = new System.Drawing.Size(251, 21);
@@ -102,6 +106,7 @@
             // 
             this.lblBeneficio.AutoSize = true;
             this.lblBeneficio.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBeneficio.ForeColor = System.Drawing.Color.White;
             this.lblBeneficio.Location = new System.Drawing.Point(11, 9);
             this.lblBeneficio.Name = "lblBeneficio";
             this.lblBeneficio.Size = new System.Drawing.Size(316, 21);
@@ -112,6 +117,7 @@
             // 
             this.chkBeneficio.AutoSize = true;
             this.chkBeneficio.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkBeneficio.ForeColor = System.Drawing.Color.White;
             this.chkBeneficio.Location = new System.Drawing.Point(15, 87);
             this.chkBeneficio.Name = "chkBeneficio";
             this.chkBeneficio.Size = new System.Drawing.Size(550, 21);
@@ -124,6 +130,7 @@
             // 
             this.lblSolicitacao.AutoSize = true;
             this.lblSolicitacao.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSolicitacao.ForeColor = System.Drawing.Color.White;
             this.lblSolicitacao.Location = new System.Drawing.Point(3, 8);
             this.lblSolicitacao.Name = "lblSolicitacao";
             this.lblSolicitacao.Size = new System.Drawing.Size(312, 21);
@@ -134,6 +141,7 @@
             // 
             this.lblMesesEmpregado.AutoSize = true;
             this.lblMesesEmpregado.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMesesEmpregado.ForeColor = System.Drawing.Color.White;
             this.lblMesesEmpregado.Location = new System.Drawing.Point(3, 163);
             this.lblMesesEmpregado.Name = "lblMesesEmpregado";
             this.lblMesesEmpregado.Size = new System.Drawing.Size(592, 21);
@@ -144,6 +152,7 @@
             // 
             this.rbSolicitacao1.AutoSize = true;
             this.rbSolicitacao1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbSolicitacao1.ForeColor = System.Drawing.Color.White;
             this.rbSolicitacao1.Location = new System.Drawing.Point(3, 42);
             this.rbSolicitacao1.Name = "rbSolicitacao1";
             this.rbSolicitacao1.Size = new System.Drawing.Size(306, 21);
@@ -156,6 +165,7 @@
             // 
             this.rbSolicitacao2.AutoSize = true;
             this.rbSolicitacao2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbSolicitacao2.ForeColor = System.Drawing.Color.White;
             this.rbSolicitacao2.Location = new System.Drawing.Point(3, 78);
             this.rbSolicitacao2.Name = "rbSolicitacao2";
             this.rbSolicitacao2.Size = new System.Drawing.Size(333, 21);
@@ -168,6 +178,7 @@
             // 
             this.rbSolicitacao3.AutoSize = true;
             this.rbSolicitacao3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbSolicitacao3.ForeColor = System.Drawing.Color.White;
             this.rbSolicitacao3.Location = new System.Drawing.Point(3, 115);
             this.rbSolicitacao3.Name = "rbSolicitacao3";
             this.rbSolicitacao3.Size = new System.Drawing.Size(380, 21);
@@ -195,6 +206,7 @@
             // 
             this.btnSimular.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSimular.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSimular.ForeColor = System.Drawing.Color.White;
             this.btnSimular.Location = new System.Drawing.Point(3, 239);
             this.btnSimular.Name = "btnSimular";
             this.btnSimular.Size = new System.Drawing.Size(108, 31);
@@ -207,6 +219,7 @@
             // 
             this.btnContinuar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnContinuar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnContinuar.ForeColor = System.Drawing.Color.White;
             this.btnContinuar.Location = new System.Drawing.Point(15, 114);
             this.btnContinuar.Name = "btnContinuar";
             this.btnContinuar.Size = new System.Drawing.Size(108, 31);
@@ -242,6 +255,7 @@
             this.Controls.Add(this.chkJustaCausa);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "frmBeneficioSeguroDesemprego";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -49,11 +49,12 @@
             // 
             // btnCalcularFgts
             // 
-            this.btnCalcularFgts.BackgroundImage = global::iRh.Windows.Properties.Resources.calculator_android_system_blue_smartphone_icon_252259;
-            this.btnCalcularFgts.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnCalcularFgts.BackgroundImage = global::iRh.Windows.Properties.Resources.calculate_FILL0_wght400_GRAD0_opsz48;
+            this.btnCalcularFgts.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnCalcularFgts.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCalcularFgts.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCalcularFgts.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalcularFgts.ForeColor = System.Drawing.Color.White;
             this.btnCalcularFgts.Location = new System.Drawing.Point(19, 107);
             this.btnCalcularFgts.Name = "btnCalcularFgts";
             this.btnCalcularFgts.Size = new System.Drawing.Size(147, 64);
@@ -77,6 +78,7 @@
             // 
             this.lblOValorDoSeuFgts.AutoSize = true;
             this.lblOValorDoSeuFgts.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOValorDoSeuFgts.ForeColor = System.Drawing.Color.White;
             this.lblOValorDoSeuFgts.Location = new System.Drawing.Point(3, 13);
             this.lblOValorDoSeuFgts.Name = "lblOValorDoSeuFgts";
             this.lblOValorDoSeuFgts.Size = new System.Drawing.Size(228, 30);
@@ -87,6 +89,7 @@
             // 
             this.lblResultadoFgts.AutoSize = true;
             this.lblResultadoFgts.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultadoFgts.ForeColor = System.Drawing.Color.White;
             this.lblResultadoFgts.Location = new System.Drawing.Point(3, 43);
             this.lblResultadoFgts.Name = "lblResultadoFgts";
             this.lblResultadoFgts.Size = new System.Drawing.Size(110, 30);
@@ -97,6 +100,7 @@
             // 
             this.lblSalarioFsgts.AutoSize = true;
             this.lblSalarioFsgts.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSalarioFsgts.ForeColor = System.Drawing.Color.White;
             this.lblSalarioFsgts.Location = new System.Drawing.Point(12, 9);
             this.lblSalarioFsgts.Name = "lblSalarioFsgts";
             this.lblSalarioFsgts.Size = new System.Drawing.Size(489, 37);

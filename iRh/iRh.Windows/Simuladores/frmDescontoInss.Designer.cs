@@ -45,6 +45,7 @@
             this.lblSalario.AutoSize = true;
             this.lblSalario.BackColor = System.Drawing.Color.Transparent;
             this.lblSalario.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSalario.ForeColor = System.Drawing.Color.White;
             this.lblSalario.Location = new System.Drawing.Point(7, 9);
             this.lblSalario.Name = "lblSalario";
             this.lblSalario.Size = new System.Drawing.Size(400, 30);
@@ -75,7 +76,7 @@
             // 
             this.lblResultado.AutoSize = true;
             this.lblResultado.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.lblResultado.ForeColor = System.Drawing.Color.White;
             this.lblResultado.Location = new System.Drawing.Point(14, 21);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(130, 30);
@@ -87,6 +88,7 @@
             this.lblPrecioneBotao.AutoSize = true;
             this.lblPrecioneBotao.BackColor = System.Drawing.Color.Transparent;
             this.lblPrecioneBotao.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPrecioneBotao.ForeColor = System.Drawing.Color.White;
             this.lblPrecioneBotao.Location = new System.Drawing.Point(-2, 153);
             this.lblPrecioneBotao.Name = "lblPrecioneBotao";
             this.lblPrecioneBotao.Size = new System.Drawing.Size(447, 30);
@@ -106,16 +108,17 @@
             // btnCalcular
             // 
             this.btnCalcular.BackColor = System.Drawing.Color.Transparent;
-            this.btnCalcular.BackgroundImage = global::iRh.Windows.Properties.Resources.calculator_android_system_blue_smartphone_icon_252259;
-            this.btnCalcular.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnCalcular.BackgroundImage = global::iRh.Windows.Properties.Resources.calculate_FILL0_wght400_GRAD0_opsz48;
+            this.btnCalcular.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnCalcular.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCalcular.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCalcular.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalcular.ForeColor = System.Drawing.Color.White;
             this.btnCalcular.Location = new System.Drawing.Point(12, 207);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(144, 73);
             this.btnCalcular.TabIndex = 2;
-            this.btnCalcular.Text = "Calcular INSS";
+            this.btnCalcular.Text = "Calcular ";
             this.btnCalcular.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnCalcular.UseVisualStyleBackColor = false;
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);

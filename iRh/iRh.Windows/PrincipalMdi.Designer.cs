@@ -44,6 +44,7 @@
             this.menuBeneficioPis = new System.Windows.Forms.ToolStripMenuItem();
             this.menuBeneficioSeguroDesemprego = new System.Windows.Forms.ToolStripMenuItem();
             this.menuBeneficioValeTransporte = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.contraChequeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.menuPrincipal.SuspendLayout();
@@ -89,6 +90,7 @@
             this.menuBeneficioPis,
             this.menuBeneficioSeguroDesemprego,
             this.menuBeneficioValeTransporte,
+            this.toolStripSeparator2,
             this.contraChequeToolStripMenuItem});
             this.simuladoresToolStripMenuItem.Name = "simuladoresToolStripMenuItem";
             this.simuladoresToolStripMenuItem.Size = new System.Drawing.Size(84, 20);
@@ -165,6 +167,7 @@
             // 
             // menuBeneficioSeguroDesemprego
             // 
+            this.menuBeneficioSeguroDesemprego.Image = global::iRh.Windows.Properties.Resources.moneyfolder_99354;
             this.menuBeneficioSeguroDesemprego.Name = "menuBeneficioSeguroDesemprego";
             this.menuBeneficioSeguroDesemprego.Size = new System.Drawing.Size(249, 22);
             this.menuBeneficioSeguroDesemprego.Text = "Beneficio de Seguro Desemprego";
@@ -172,17 +175,24 @@
             // 
             // menuBeneficioValeTransporte
             // 
+            this.menuBeneficioValeTransporte.Image = global::iRh.Windows.Properties.Resources.credit_card_hand_payment_pay_icon_143286;
             this.menuBeneficioValeTransporte.Name = "menuBeneficioValeTransporte";
             this.menuBeneficioValeTransporte.Size = new System.Drawing.Size(249, 22);
             this.menuBeneficioValeTransporte.Text = "Beneficio de Vale Transporte";
             this.menuBeneficioValeTransporte.Click += new System.EventHandler(this.menuBeneficioValeTransporte_Click);
             // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(246, 6);
+            // 
             // contraChequeToolStripMenuItem
             // 
+            this.contraChequeToolStripMenuItem.Image = global::iRh.Windows.Properties.Resources.document_file_page_paper_icon_127194;
             this.contraChequeToolStripMenuItem.Name = "contraChequeToolStripMenuItem";
             this.contraChequeToolStripMenuItem.Size = new System.Drawing.Size(249, 22);
             this.contraChequeToolStripMenuItem.Text = "Contra Cheque";
-            this.contraChequeToolStripMenuItem.Click += new System.EventHandler(this.contraChequeToolStripMenuItem_Click);
+            this.contraChequeToolStripMenuItem.Click += new System.EventHandler(this.contraChequeToolStripMenuItem_Click_1);
             // 
             // PrincipalMdi
             // 
@@ -227,6 +237,7 @@
         private System.Windows.Forms.ToolStripMenuItem menuBeneficioSeguroDesemprego;
         private System.Windows.Forms.ToolStripMenuItem menuBeneficioValeTransporte;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripMenuItem contraChequeToolStripMenuItem;
     }
 }
