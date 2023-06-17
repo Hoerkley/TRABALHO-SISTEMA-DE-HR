@@ -358,5 +358,8 @@
   <ItemGroup>
     <None Include="Resources\calculate_FILL0_wght400_GRAD0_opsz48.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transfer_man_employee_user_avatar_arrow_refresh_icon_141997.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

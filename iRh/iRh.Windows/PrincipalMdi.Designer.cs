@@ -71,8 +71,9 @@
             // 
             // menuCadastroFuncionario
             // 
+            this.menuCadastroFuncionario.Image = global::iRh.Windows.Properties.Resources.transfer_man_employee_user_avatar_arrow_refresh_icon_141997;
             this.menuCadastroFuncionario.Name = "menuCadastroFuncionario";
-            this.menuCadastroFuncionario.Size = new System.Drawing.Size(142, 22);
+            this.menuCadastroFuncionario.Size = new System.Drawing.Size(180, 22);
             this.menuCadastroFuncionario.Text = "Funcionários";
             this.menuCadastroFuncionario.Click += new System.EventHandler(this.menuCadastroFuncionario_Click);
             // 
