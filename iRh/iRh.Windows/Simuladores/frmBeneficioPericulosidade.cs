@@ -30,11 +30,15 @@ namespace iRh.Windows.Simuladores
             try
             {
                 var salario = double.Parse(txtSalarioPericulodidade.Text);
-                var receberPericulosidade = salario * 0.03;
+                var horas = double.Parse(txtHorasPericulosidade.Text);
+
                 var inss = Inss.Calcula(salario);
                 var irrf = Irrf.Calcula(salario);
-                var adicionalNoturno = AdicionalNoturno.Calcula(salario, receberPericulosidade);
-                var totalReceber = receberPericulosidade + inss + irrf + adicionalNoturno;
+               
+                var valorPericulosidade = Periculosidade.Calcula(salario, horas);
+
+               
+                var totalReceber = valorPericulosidade + inss + irrf;
 
                 lblResultado.Text = ("o total que irá receber é: ") + totalReceber.ToString("C");
                 panelResultado.Visible = true;

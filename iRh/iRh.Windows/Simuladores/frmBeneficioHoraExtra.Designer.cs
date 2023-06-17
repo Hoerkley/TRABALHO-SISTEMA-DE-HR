@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBeneficioHoraExtra));
             this.panelDomngosFeriados = new System.Windows.Forms.Panel();
             this.txtHoraDomingosFeriados = new System.Windows.Forms.TextBox();
             this.lblHoraDoingosFeriados = new System.Windows.Forms.Label();
@@ -47,15 +48,15 @@
             this.rbDiasUteisSim = new System.Windows.Forms.RadioButton();
             this.groupDomingosFeriados = new System.Windows.Forms.GroupBox();
             this.groupDiasUteis = new System.Windows.Forms.GroupBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelDomngosFeriados.SuspendLayout();
             this.panelDiasUteis.SuspendLayout();
             this.panelResutado.SuspendLayout();
             this.groupDomingosFeriados.SuspendLayout();
             this.groupDiasUteis.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelDomngosFeriados
@@ -254,6 +255,16 @@
             this.groupDiasUteis.TabIndex = 19;
             this.groupDiasUteis.TabStop = false;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::iRh.Windows.Properties.Resources._5b0316932d72ec67438295cb965202b8_removebg_preview;
+            this.pictureBox2.Location = new System.Drawing.Point(742, 28);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(157, 150);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 21;
+            this.pictureBox2.TabStop = false;
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Location = new System.Drawing.Point(376, 262);
@@ -262,16 +273,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 20;
             this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::iRh.Windows.Properties.Resources.Férias_removebg_preview;
-            this.pictureBox2.Location = new System.Drawing.Point(714, 110);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(237, 150);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 21;
-            this.pictureBox2.TabStop = false;
             // 
             // frmBeneficioHoraExtra
             // 
@@ -292,6 +293,7 @@
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.panelDomngosFeriados);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "frmBeneficioHoraExtra";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -307,8 +309,8 @@
             this.groupDomingosFeriados.PerformLayout();
             this.groupDiasUteis.ResumeLayout(false);
             this.groupDiasUteis.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

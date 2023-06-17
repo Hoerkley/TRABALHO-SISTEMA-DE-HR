@@ -44,8 +44,8 @@
             this.menuBeneficioPis = new System.Windows.Forms.ToolStripMenuItem();
             this.menuBeneficioSeguroDesemprego = new System.Windows.Forms.ToolStripMenuItem();
             this.menuBeneficioValeTransporte = new System.Windows.Forms.ToolStripMenuItem();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.contraChequeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.menuPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -96,6 +96,7 @@
             // 
             // menuDescontoInss
             // 
+            this.menuDescontoInss.Image = global::iRh.Windows.Properties.Resources.Custom_Icon_Design_Pretty_Office_11_Cash_64;
             this.menuDescontoInss.Name = "menuDescontoInss";
             this.menuDescontoInss.Size = new System.Drawing.Size(249, 22);
             this.menuDescontoInss.Text = "Desconto de INSS";
@@ -103,6 +104,7 @@
             // 
             // menuDescontoIrrf
             // 
+            this.menuDescontoIrrf.Image = global::iRh.Windows.Properties.Resources.Designcontest_Ecommerce_Business_Dollar_64;
             this.menuDescontoIrrf.Name = "menuDescontoIrrf";
             this.menuDescontoIrrf.Size = new System.Drawing.Size(249, 22);
             this.menuDescontoIrrf.Text = "Desconto de IRPF";
@@ -115,6 +117,7 @@
             // 
             // menuBeneficioAdicionalNoturno
             // 
+            this.menuBeneficioAdicionalNoturno.Image = global::iRh.Windows.Properties.Resources.Icons8_Windows_8_Photo_Video_Night_Portrait_64;
             this.menuBeneficioAdicionalNoturno.Name = "menuBeneficioAdicionalNoturno";
             this.menuBeneficioAdicionalNoturno.Size = new System.Drawing.Size(249, 22);
             this.menuBeneficioAdicionalNoturno.Text = "Beneficio de Adicional Noturno";
@@ -122,6 +125,7 @@
             // 
             // menuBeneficioDepositoFgts
             // 
+            this.menuBeneficioDepositoFgts.Image = global::iRh.Windows.Properties.Resources.Tribalmarkings_Aquave_Cash_Dollar_folder_64;
             this.menuBeneficioDepositoFgts.Name = "menuBeneficioDepositoFgts";
             this.menuBeneficioDepositoFgts.Size = new System.Drawing.Size(249, 22);
             this.menuBeneficioDepositoFgts.Text = "Beneficio de Deposito FGTS";
@@ -129,6 +133,7 @@
             // 
             // menuBeneficioFerias
             // 
+            this.menuBeneficioFerias.Image = global::iRh.Windows.Properties.Resources.Iconka_Business_Outline_Money_pack_64;
             this.menuBeneficioFerias.Name = "menuBeneficioFerias";
             this.menuBeneficioFerias.Size = new System.Drawing.Size(249, 22);
             this.menuBeneficioFerias.Text = "Beneficio de Férias";
@@ -136,6 +141,7 @@
             // 
             // menuBeneficioHoraExtra
             // 
+            this.menuBeneficioHoraExtra.Image = global::iRh.Windows.Properties.Resources.Icons8_Ios7_Finance_Money_Box_64;
             this.menuBeneficioHoraExtra.Name = "menuBeneficioHoraExtra";
             this.menuBeneficioHoraExtra.Size = new System.Drawing.Size(249, 22);
             this.menuBeneficioHoraExtra.Text = "Beneficio de Hora Extra";
@@ -143,6 +149,7 @@
             // 
             // menuBeneficioPericusidade
             // 
+            this.menuBeneficioPericusidade.Image = global::iRh.Windows.Properties.Resources.Everaldo_Crystal_Clear_Kdm_config_danger_64;
             this.menuBeneficioPericusidade.Name = "menuBeneficioPericusidade";
             this.menuBeneficioPericusidade.Size = new System.Drawing.Size(249, 22);
             this.menuBeneficioPericusidade.Text = "Beneficio de Periculosidade";
@@ -150,6 +157,7 @@
             // 
             // menuBeneficioPis
             // 
+            this.menuBeneficioPis.Image = global::iRh.Windows.Properties.Resources.Aha_Soft_Blue_Money_bag_48;
             this.menuBeneficioPis.Name = "menuBeneficioPis";
             this.menuBeneficioPis.Size = new System.Drawing.Size(249, 22);
             this.menuBeneficioPis.Text = "Beneficio de PIS";

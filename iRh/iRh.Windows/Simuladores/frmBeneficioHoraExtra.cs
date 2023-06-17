@@ -56,8 +56,7 @@ namespace iRh.Windows.Simuladores
             try
             {
                 var salario = double.Parse(txtSalarioHoraExtra.Text);                         
-                double valorHora = salario / 220;
-
+                
                 if (rbDomingosFeriadosSim.Checked == true)
                 {
                     if(rbDiasUteisSim.Checked == true)
@@ -65,25 +64,23 @@ namespace iRh.Windows.Simuladores
                         var horasDomingosFeriados = double.Parse(txtHoraDomingosFeriados.Text);
                         var horasDiasUteis = double.Parse(txtHoraDiasUteis.Text);
 
-                        var valorHoraExtra100 = valorHora * 2;
-                        var valorTotal100 = valorHoraExtra100 * horasDomingosFeriados;
+                        horasDomingosFeriados = double.Parse(txtHoraDomingosFeriados.Text);
+                        horasDiasUteis = double.Parse(txtHoraDiasUteis.Text);
 
-                        var valorHora50 = valorHora * 0.5;
-                        var valorTotal50 = valorHora50 * horasDiasUteis;
+                        var horaExtra = HoraExtra.Resultado(salario, horasDomingosFeriados, horasDiasUteis);
 
-                        var horaExtra = valorTotal100 + valorHora50;
 
                         lblResultado.Text = horaExtra.ToString("C");
                         panelResutado.Visible = true;
                     }
                     else
                     {
+                        var horasDiasUteis = 0;
                         var horasDomingosFeriados = double.Parse(txtHoraDomingosFeriados.Text);
 
-                        var valorHoraExtra100 = valorHora * 2;
-                        var valorTotal100 = valorHoraExtra100 * horasDomingosFeriados;
+                        var horaExtra = HoraExtra.Resultado(salario, horasDomingosFeriados, horasDiasUteis);
 
-                        lblResultado.Text = valorTotal100.ToString("C");
+                        lblResultado.Text = horaExtra.ToString("C");
                         panelResutado.Visible = true;
                     }
                     
@@ -91,10 +88,11 @@ namespace iRh.Windows.Simuladores
                 else
                 {
                     var horasDiasUteis = double.Parse(txtHoraDiasUteis.Text);
-                    var valorHora50 = valorHora * 0.5;
-                    var valorTotal50 = valorHora50 * horasDiasUteis;
+                    var horasDomingosFeriados = 0;
 
-                    lblResultado.Text = valorTotal50.ToString("C");
+                    var horaExtra = HoraExtra.Resultado(salario, horasDomingosFeriados, horasDiasUteis); 
+
+                    lblResultado.Text = horaExtra.ToString("C");
                     panelResutado.Visible = true;
                 }
             }

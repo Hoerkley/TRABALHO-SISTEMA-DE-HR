@@ -28,11 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBeneficioPericulosidade));
             this.lblSalario = new System.Windows.Forms.Label();
             this.panelResultado = new System.Windows.Forms.Panel();
             this.lblResultado = new System.Windows.Forms.Label();
             this.txtSalarioPericulodidade = new System.Windows.Forms.TextBox();
             this.btnCalcular = new System.Windows.Forms.Button();
+            this.lblHoras = new System.Windows.Forms.Label();
+            this.txtHorasPericulosidade = new System.Windows.Forms.TextBox();
             this.panelResultado.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -87,6 +90,24 @@
             this.btnCalcular.UseVisualStyleBackColor = true;
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
+            // lblHoras
+            // 
+            this.lblHoras.AutoSize = true;
+            this.lblHoras.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHoras.Location = new System.Drawing.Point(311, 25);
+            this.lblHoras.Name = "lblHoras";
+            this.lblHoras.Size = new System.Drawing.Size(254, 21);
+            this.lblHoras.TabIndex = 5;
+            this.lblHoras.Text = "Informe as horas do funcionário";
+            // 
+            // txtHorasPericulosidade
+            // 
+            this.txtHorasPericulosidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtHorasPericulosidade.Location = new System.Drawing.Point(315, 64);
+            this.txtHorasPericulosidade.Name = "txtHorasPericulosidade";
+            this.txtHorasPericulosidade.Size = new System.Drawing.Size(100, 26);
+            this.txtHorasPericulosidade.TabIndex = 6;
+            // 
             // frmBeneficioPericulosidade
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -95,12 +116,15 @@
             this.BackgroundImage = global::iRh.Windows.Properties.Resources.image3_2_removebg_preview;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtHorasPericulosidade);
+            this.Controls.Add(this.lblHoras);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.txtSalarioPericulodidade);
             this.Controls.Add(this.panelResultado);
             this.Controls.Add(this.lblSalario);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "frmBeneficioPericulosidade";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -119,5 +143,7 @@
         private System.Windows.Forms.Label lblResultado;
         private System.Windows.Forms.TextBox txtSalarioPericulodidade;
         private System.Windows.Forms.Button btnCalcular;
+        private System.Windows.Forms.Label lblHoras;
+        private System.Windows.Forms.TextBox txtHorasPericulosidade;
     }
 }

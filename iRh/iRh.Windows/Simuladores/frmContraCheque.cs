@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using iRh.Windows.Core;
 
 namespace iRh.Windows.Simuladores
 {
@@ -27,23 +28,88 @@ namespace iRh.Windows.Simuladores
             }
             try
             {
-                if(chkHoraExtra.Checked)
-                {
-                    if(chkNoturno.Checked)
-                    {
+                var salarioBruto = double.Parse(txtSalarioBruto.Text);
+                var adicionalNoturno = double.Parse(txtNoturno.Text);
+                var horaExtra100 = double.Parse(txtHorasExtras100.Text);
+                var horaExtra50 = double.Parse(txtHoraExtra50.Text);
+                var periculosidade = double.Parse(txtPericulosidade.Text);
 
-                    }
-                }
+                if (chkvaleTransporte.Checked == true)
+                {
+
+                    var inss = Inss.Calcula(salarioBruto);
+                    var irpf = Irrf.Calcula(salarioBruto);
+                    var fgts = CalculaFgts.calacula(salarioBruto);
+                    var valorNoturno = AdicionalNoturno.Calcula(salarioBruto, adicionalNoturno);
+                    var valorHora100 = HoraExtra.Resultado(salarioBruto, horaExtra100, horaExtra50);
+                    var valorHora50 = HoraExtra.Resultado(salarioBruto, horaExtra100, horaExtra50);
+                    var valorValeTransporte = ValeTransporte.Calculo(salarioBruto);
+                    var valorPericulosidade = Periculosidade.Calcula(salarioBruto, periculosidade);
+                    var valorTotalHoraExtra = valorHora100 + valorHora50;
+
+                    lblResultadoNoturno.Text = valorNoturno.ToString("C");
+                    lblResultadoIrpf.Text = irpf.ToString("C");
+                    lblResultadoHoraExtra.Text = valorTotalHoraExtra.ToString("C");
+                    lblResultadoInss.Text = inss.ToString("C");
+                    lblResultadoFgts.Text = fgts.ToString("C");
+                    lblResultadoValeTransporte.Text = valorValeTransporte.ToString("C");
+                    lblResultadoPericulosidade.Text = valorPericulosidade.ToString("C");
+                    var totaisAdionais = valorNoturno + valorPericulosidade + valorTotalHoraExtra;
+                    var totaisDescontos = inss + irpf + fgts;
+                    var resultadoLiquido = totaisAdionais - totaisDescontos;
+
+                    lblResultadoAdicional.Text = totaisAdionais.ToString("C");
+                    lbllblResultadoDesconto.Text = totaisDescontos.ToString("C");
+                    lblResultadoSalario.Text = resultadoLiquido.ToString("C");
+
+                    panelPerguntas.Visible = false;
+                    panelResultado.Visible = true;
+
+                }    
                 else
                 {
+                    var inss = Inss.Calcula(salarioBruto);
+                    var irpf = Irrf.Calcula(salarioBruto);
+                    var fgts = CalculaFgts.calacula(salarioBruto);
+                    var valorNoturno = AdicionalNoturno.Calcula(salarioBruto, adicionalNoturno);
+                    var valorHora100 = HoraExtra.Resultado(salarioBruto, horaExtra100, horaExtra50);
+                    var valorHora50 = HoraExtra.Resultado(salarioBruto, horaExtra100, horaExtra50);
+                    var valorValeTransporte = ValeTransporte.Calculo(salarioBruto);
+                    var valorPericulosidade = Periculosidade.Calcula(salarioBruto, periculosidade);
+                    var valorTotalHoraExtra = valorHora100 + valorHora50;
 
+                    valorValeTransporte = 0;
+                    lblResultadoNoturno.Text = valorNoturno.ToString("C");
+                    lblResultadoIrpf.Text = irpf.ToString("C");
+                    lblResultadoHoraExtra.Text = valorTotalHoraExtra.ToString("C");
+                    lblResultadoInss.Text = inss.ToString("C");
+                    lblResultadoFgts.Text = fgts.ToString("C");
+                    lblResultadoValeTransporte.Text = valorValeTransporte.ToString("C");
+                    lblResultadoPericulosidade.Text = valorPericulosidade.ToString("C");
+                 
+                    var totaisAdionais = valorNoturno + valorPericulosidade + valorTotalHoraExtra;
+                    var totaisDescontos = inss + irpf + fgts;
+                    var resultadoLiquido = totaisAdionais - totaisDescontos;
+
+                    lblResultadoAdicional.Text = totaisAdionais.ToString("C");
+                    lbllblResultadoDesconto.Text = totaisDescontos.ToString("C");
+                    lblResultadoSalario.Text = resultadoLiquido.ToString("C");
+
+                    panelPerguntas.Visible = false;
+                    panelResultado.Visible = true;
                 }
+
                 
+
+              
+
+       
             }
             catch (Exception)
             {
                 MessageBox.Show("Informe um valor valido por favor!!!, ex: 3500", "erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+
         }
 
         private void label1_Click(object sender, EventArgs e)
